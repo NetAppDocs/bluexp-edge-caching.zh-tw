@@ -18,6 +18,38 @@ summary: 瞭解Global File Cache的新功能。
 
 
 
+== 2022年7月25日（2.0版）
+
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
+
+
+
+=== 全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能
+
+新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。
+
+https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["深入瞭解Edge Cache授權套件。"]
+
+
+
+=== 全域檔案快取現在已整合Cloud Insights 至功能性
+
+NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。
+
+https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
+
+
+
+=== 授權管理伺服器已經過強化、可在極具限制的環境中運作
+
+在授權組態期間、授權管理伺服器（LMS）應可存取網際網路、以便向NetApp/期望職位收集授權詳細資料。一旦組態成功、LMS就能繼續以離線模式運作、並提供授權功能、即使在限制嚴格的環境中。
+
+
+
+=== Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單
+
+
+
 == 2022年6月23日（版本1.3.1）
 
 1.3.1版的全域檔案快取Edge軟體可從取得 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。此版本可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
@@ -46,13 +78,13 @@ summary: 瞭解Global File Cache的新功能。
 
 
 
-=== 已將Openssl模組升級至1.1.1版。
+=== 已將Openssl模組升級至1.1.1版
 
 這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。
 
 
 
-=== 記錄基礎架構已經增強。
+=== 記錄基礎架構已經增強
 
 
 
@@ -60,38 +92,18 @@ summary: 瞭解Global File Cache的新功能。
 
 
 
-=== 已新增「Edge同步」功能。
+=== 已新增「Edge同步」功能
 
 此功能可讓遠端辦公室的多個邊緣保持同步、而且資料永遠會快取/暖化。當某個檔案在某個Edge上被清除/擷取時、參與Edge Sync的所有Edge上的相同檔案都會更新並快取。請參閱第8.4節 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
 
 
 
-=== 已將Openssl模組升級至1.1.1版。
+=== 已將Openssl模組升級至1.1.1版
 
 這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。
 
 
 
-=== 更新授權登錄頁面。
+=== 更新授權登錄頁面
 
 GFC授權登錄頁面現在會顯示透過NetApp訂閱啟動的授權數量。
-
-
-
-== 2021年3月21日（版本1.0.3）
-
-
-
-=== 軟體安裝程式會更新、自動將GFC程序排除在Windows Defender之外。
-
-Global File Cache軟體安裝程式現在可將所有GFC程序排除在Windows Defender軟體隨需掃描之外。
-
-
-
-=== 新的「原則組態」索引標籤已新增至「組態主控台」。
-
-此組態索引標籤可讓您從GFC核心新增預先填入的工作。
-
-
-
-=== 強化軟體、減少記憶體使用量、同時提升效能與穩定性。

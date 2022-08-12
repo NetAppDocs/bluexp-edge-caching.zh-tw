@@ -49,6 +49,9 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["請遵循下列步驟"] 升級您的Global File Cache Edge軟體。
 
 
+NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8。
+
+
 
 == 設計及部署 Global File Cache Edge
 

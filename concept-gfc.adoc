@@ -49,7 +49,7 @@ image:diagram_gfc_image1.png["顯示遠端辦公室位置如何使用全域檔�
 * 全域檔案快取 Edge （部署於遠端位置）
 
 
-Global File Cache Core 執行個體會掛載至您所選後端儲存平台（例如 Cloud Volumes ONTAP ： Cloud Volumes Service 並建立 Global File Cache Fabric 、無論資料位於公有雲的一或多個儲存平台上、都能將非結構化資料集中並整合至單一資料集。 Azure NetApp Files
+Global File Cache Core執行個體會掛載至您所選後端儲存平台（例如Cloud Volumes ONTAP ：Cloud Volumes Service 並建立全域檔案快取「Fabric」、無論資料位於公有雲的一或多個儲存平台上、都能將非結構化資料集中並整合至單一資料集。Azure NetApp Files
 
 image:diagram_gfc_image2.png["顯示在遠端辦公室和雲端中央伺服器上安裝軟體的全域檔案快取部署詳細資料的圖表。"]
 
@@ -75,7 +75,7 @@ image:diagram_gfc_image2.png["顯示在遠端辦公室和雲端中央伺服器�
 
 === 手動部署選項
 
-全域檔案快取組態也支援Cloud Volumes ONTAP 使用安裝Cloud Volumes Service 在公有雲儲存基礎架構上的適用於Azure NetApp Files 各種系統的支援功能、包括：ONTAPNetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用 Cloud Manager 。
+全域檔案快取組態也支援Cloud Volumes ONTAP 使用安裝Cloud Volumes Service 在公有雲儲存基礎架構上的適用於Azure NetApp Files 各種系統的支援功能、包括：ONTAPNetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用Cloud Manager。
 
 請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
 
@@ -118,7 +118,7 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 
 使用全域檔案快取的成本取決於您選擇的安裝類型。
 
-* 所有安裝都需要在雲端部署一或多個磁碟區 Cloud Volumes ONTAP （例如、 Cloud Volumes Service 支援、支援或 Azure NetApp Files 支援）。這會從所選的雲端供應商收取費用。
+* 所有安裝都需要在雲端部署一或多個磁碟區（例如Cloud Volumes ONTAP 、例如、列舉、Cloud Volumes Service 顯示或Azure NetApp Files 顯示）。這會從所選的雲端供應商收取費用。
 * 所有安裝也需要在雲端部署兩個以上的虛擬機器（ VM ）。這會從所選的雲端供應商收取費用。
 +
 ** 全域檔案快取管理伺服器：
@@ -137,7 +137,12 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 
 
 
-* 安裝 Cloud Volumes ONTAP 時搭配 Azure 或 AWS 使用（透過 Cloud Manager 完全部署支援的組態）、每個站台每年需支付 3 、 000 美元（每個 Global File Cache Edge 執行個體）的費用。
+* 在Cloud Volumes ONTAP Azure或AWS中安裝搭配使用時（透過Cloud Manager完全部署支援的組態）、有兩種定價選項可供選擇：
++
+** 對於Azure或AWS中的系統、您每年可為每個Global File Cache Edge執行個體支付3、000美元。Cloud Volumes ONTAP
+** 或者、對於Cloud Volumes ONTAP Azure中的不二系統、您也可以選擇Cloud Volumes ONTAP 「不二邊快取」套件。此容量型授權可讓您針對已配置容量的每3個TiB、部署單一的Global File Cache Edge執行個體。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["如需詳細資訊、請參閱此處"]。
+
+
 * 使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱 https://cloud.netapp.com/global-file-cache/roi["計算您的節約潛力"^] 或洽詢您的全球檔案快取解決方案工程師、以討論企業部署的最佳選項。
 
 
@@ -159,6 +164,4 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 
 Cloud Manager 支援的全域檔案快取版本要求、作為中央儲存設備的後端儲存平台必須是在 Cloud Volumes ONTAP Azure 或 AWS 中部署了一個單一節點或 HA 配對的工作環境。
 
-目前不支援使用 Cloud Manager 的其他儲存平台和其他雲端供應商、但可以使用舊版部署程序來部署。
-
-這些其他組態、例如在 Cloud Volumes ONTAP Microsoft Azure 、 Google Cloud 或 AWS 上使用支援使用支援功能的全域檔案快取、 Cloud Volumes Service 也就是使用舊版程序。請參閱 link:https://cloud.netapp.com/global-file-cache/onboarding["全域檔案快取總覽與就職"^] 以取得詳細資料。
+目前不支援使用 Cloud Manager 的其他儲存平台和其他雲端供應商、但可以使用舊版部署程序來部署。這些其他組態Cloud Volumes ONTAP 、例如在Cloud Volumes Service Google Cloud上使用支援功能的整體檔案快取、Azure NetApp Files 在ONTAP 支援功能的Amazon FSX系統上使用支援功能、例如使用功能支援功能的整體檔案快取、或是使用舊版程序。請參閱 link:https://cloud.netapp.com/global-file-cache/onboarding["全域檔案快取總覽與就職"^] 以取得詳細資料。

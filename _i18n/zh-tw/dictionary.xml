@@ -137,21 +137,10 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">瞭解Global File Cache的新功能。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">Global File Cache的新功能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021年12月17日（1.2.0版）</block>
-  <block id="cd25d0dea9ddd72c58145908f9602867" category="section-title">已將Openssl模組升級至1.1.1版。</block>
   <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。</block>
-  <block id="c49811e0cecf194341b2ae059236dc2a" category="section-title">記錄基礎架構已經增強。</block>
   <block id="4d18c7d8762e789debac221e79dece82" category="section-title">2021年6月9日（1.1.0版）</block>
-  <block id="77e6f4e52a856772d2e09ae19855212a" category="section-title">已新增「Edge同步」功能。</block>
   <block id="850383dab52cb38649682d2f7d66f04f" category="paragraph">此功能可讓遠端辦公室的多個邊緣保持同步、而且資料永遠會快取/暖化。當某個檔案在某個Edge上被清除/擷取時、參與Edge Sync的所有Edge上的相同檔案都會更新並快取。請參閱第8.4節<block ref="0f1e08336ba0ac25d056248c22c33aaf" category="inline-link-rx"></block> 以取得詳細資料。</block>
-  <block id="8703dd42c4c647846ef556f4d8459d59" category="section-title">已將Openssl模組升級至1.1.1版。</block>
-  <block id="513502857f15915e7acef1b7916eda1b" category="section-title">更新授權登錄頁面。</block>
   <block id="9993afe041a131f763bfa71520f8d27d" category="paragraph">GFC授權登錄頁面現在會顯示透過NetApp訂閱啟動的授權數量。</block>
-  <block id="5be3d95052c37ddc7c5e08fede5b7beb" category="section-title">2021年3月21日（版本1.0.3）</block>
-  <block id="d701539c3bff162de55bec2ac786dea9" category="section-title">軟體安裝程式會更新、自動將GFC程序排除在Windows Defender之外。</block>
-  <block id="2c7e576e2b46004ee7c7f2138e6b71e2" category="paragraph">Global File Cache軟體安裝程式現在可將所有GFC程序排除在Windows Defender軟體隨需掃描之外。</block>
-  <block id="718c867d7cc0d5ae654df61aed5134dd" category="section-title">新的「原則組態」索引標籤已新增至「組態主控台」。</block>
-  <block id="85630a0f5573b7e43d043882435503c0" category="paragraph">此組態索引標籤可讓您從GFC核心新增預先填入的工作。</block>
-  <block id="23f584e2a92da05ee5a990cefc20a926" category="section-title">強化軟體、減少記憶體使用量、同時提升效能與穩定性。</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">您將需要訓練使用者如何透過「全域檔案快取」存取共用檔案的最佳實務做法。</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">終端使用者訓練</block>
   <block id="1c616cd5519ad90d3152c98868c34e70" category="paragraph">這是「全域檔案快取」部署（終端使用者實作階段）的最後階段。</block>
@@ -175,13 +164,6 @@
   <block id="f207ae57dc9dfe83885fb108696cb88c" category="list-text">「組態UI」現在會在「編輯預先填入」頁面中正確顯示Edge主機名稱。</block>
   <block id="9437dcfd300c52c159a6d4703daa54ad" category="list-text">在授權登錄期間、解析NetApp授權訂閱伺服器的json回應時、已修正問題。</block>
   <block id="e8cdf46b30eda1b6da8eed70347d25ac" category="list-text">預先填入（TappN）記錄會增強、以記錄所有檔案的檔案傳輸狀態。</block>
-  <block id="491d6073a5e0c94c93deb36c81be5dbe" category="section-title">2021年4月7日（版本1.0.4）</block>
-  <block id="8745f104024449a4797839f221e192a2" category="list-text">QoS問題已經解決、QoS參數是套用到_all_使用者、而非只套用超過限制的使用者。</block>
-  <block id="0eb37d2733eb2ea3eb40f8c24e8c6400" category="list-text">現在、在套用至授權系統之前、系統會先驗證您的NSS認證資料。</block>
-  <block id="b41a6700f4ecdc68672c9c11626a93f4" category="list-text">GFC軟體與某些防毒軟體之間的競爭情況已經修正。</block>
-  <block id="c1b67e4a4c76817df9aca841e83485fe" category="list-text">當在丟棄租賃作業期間違反鎖定階層時、不再發生當機。</block>
-  <block id="3f4758f7775b468f31a333f97ab2c2d3" category="list-text">NetApp授權註冊與GFC訂閱型註冊僅可由雲端型授權管理伺服器（LMS）進行。內部部署LMS應使用舊版授權。</block>
-  <block id="2644e4a83d0eedbd704d3e114114e275" category="list-text">組態UI現在會在授權管理員用戶端服務（LMC）於組態期間使用主機名稱、而非LMS的IP位址時、新增預先填入的工作。</block>
   <block id="3b8fedc1b41b6f7a3619ff96f76571cf" category="summary">您可以使用 Cloud Manager 在工作環境中部署 Global File Cache Management Server 和 Global File Cache Core 軟體。</block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="doc">快速入門</block>
   <block id="191f6a6f9751dafdeae2307eac2e588e" category="section-title">使用 Cloud Manager 啟用全域檔案快取</block>
@@ -488,7 +470,6 @@
   <block id="bae5d6926bc4f006241c5e6f94750678" category="section-title">全域檔案快取元件</block>
   <block id="0f01e44182d4ad208ac99fd86195b6c6" category="paragraph">全域檔案快取包含下列元件：</block>
   <block id="85942e5503c1c00d276d3a32787e60ba" category="list-text">全域檔案快取 Edge （部署於遠端位置）</block>
-  <block id="fc8176d8f355dbfc4247953d6bf4d346" category="paragraph">Global File Cache Core 執行個體會掛載至您所選後端儲存平台（例如 Cloud Volumes ONTAP ： Cloud Volumes Service 並建立 Global File Cache Fabric 、無論資料位於公有雲的一或多個儲存平台上、都能將非結構化資料集中並整合至單一資料集。 Azure NetApp Files</block>
   <block id="813fe3f0ec18c33865dff38f15acf6e8" category="inline-image-macro">顯示在遠端辦公室和雲端中央伺服器上安裝軟體的全域檔案快取部署詳細資料的圖表。</block>
   <block id="5187ea0e239dfeb5ab25be21adb6c5f7" category="paragraph"><block ref="5187ea0e239dfeb5ab25be21adb6c5f7" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">支援的儲存平台</block>
@@ -499,7 +480,6 @@
   <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS 中的 Cloud Volumes ONTAP</block>
   <block id="0f654146c1b65006561ea8e31d5516dc" category="paragraph">此組態可讓您從 Cloud Manager 部署及管理整個全域檔案快取伺服器端部署、包括全域檔案快取管理伺服器和全域檔案快取核心。</block>
   <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">手動部署選項</block>
-  <block id="2eb40debe07bb6d7b909dce2c34426b1" category="paragraph">全域檔案快取組態也支援Cloud Volumes ONTAP 使用安裝Cloud Volumes Service 在公有雲儲存基礎架構上的適用於Azure NetApp Files 各種系統的支援功能、包括：ONTAPNetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用 Cloud Manager 。</block>
   <block id="18fdbdb3de2540e1f631602b7bc2010f" category="section-title">全域檔案快取的運作方式</block>
   <block id="8564f172539c6a5101d48785899b17a0" category="paragraph">全域檔案快取會建立一個軟體架構、在全域遠端辦公室中快取作用中的資料集。如此一來、企業使用者就能保證在全球範圍內享有透明的資料存取和最佳效能。</block>
   <block id="c124c2afbd0b581682d787d402d2b2cf" category="inline-image-macro">顯示 Edge 和 Core 上全域檔案快取元件的圖表。</block>
@@ -519,7 +499,6 @@
   <block id="ab055fb1c85968bb4f5a4bc4ea101b6f" category="list-text">使用通用命名空間的 DFS- 命名空間（建議）。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="fe5dbd0fc2a2bd12fa5c7f5d34edc9b3" category="paragraph">使用全域檔案快取的成本取決於您選擇的安裝類型。</block>
-  <block id="1af35f09e9d5c7c17f00c52e436d8840" category="list-text">所有安裝都需要在雲端部署一或多個磁碟區 Cloud Volumes ONTAP （例如、 Cloud Volumes Service 支援、支援或 Azure NetApp Files 支援）。這會從所選的雲端供應商收取費用。</block>
   <block id="e5624fb8b348be8b0b94ecdc79a3e52a" category="list-text">所有安裝也需要在雲端部署兩個以上的虛擬機器（ VM ）。這會從所選的雲端供應商收取費用。</block>
   <block id="4fd5c85d8db73f12727e2cf94e421f13" category="list-text">全域檔案快取管理伺服器：</block>
   <block id="771dcff1843f23a97fc2a57e936d4a9f" category="paragraph">在Azure中、此功能可在具有127 GB優質SSD的D2S_V3或同等（2個vCPU / 8 GB RAM）VM上執行</block>
@@ -527,7 +506,6 @@
   <block id="a93c3bd09e076f0b8fd65dde3e64a3a5" category="list-text">全域檔案快取核心：</block>
   <block id="817000ba632406cdb4b5a4da3a5c5221" category="paragraph">在Azure中、此功能可在具有127 GB優質SSD的D4s_V3或同等（4個vCPU / 16 GB RAM）VM上執行</block>
   <block id="6869983628ce136a6778d9ced07d3b4b" category="paragraph">在AWS中、這會在m4.xlarge或同等（4個vcpU/16 GB RAM）執行個體上執行、搭配127 GB通用SSD</block>
-  <block id="ef0c50754592fa0cbd6118045a98f2b2" category="list-text">安裝 Cloud Volumes ONTAP 時搭配 Azure 或 AWS 使用（透過 Cloud Manager 完全部署支援的組態）、每個站台每年需支付 3 、 000 美元（每個 Global File Cache Edge 執行個體）的費用。</block>
   <block id="d2893970aa4c57a02af5ca132a872653" category="inline-link">計算您的節約潛力</block>
   <block id="379066f65266388704788bf175a05aa9" category="list-text">使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱<block ref="72836bf520e34a0460d69e57e5e3610d" category="inline-link-rx"></block> 或洽詢您的全球檔案快取解決方案工程師、以討論企業部署的最佳選項。</block>
   <block id="30b7dc0ba4cd2cf04c1eda7c3a7b045a" category="paragraph">全域檔案快取包含以軟體為基礎的授權管理伺服器（ LMS ）、可讓您使用自動化機制來整合授權管理、並將授權部署至所有的核心和邊緣執行個體。</block>
@@ -535,9 +513,7 @@
   <block id="3fbdffd6b695a9bc6ac6bcd1e40fd200" category="paragraph">當您購買額外的 Edge 授權或續約訂閱時、我們的支援 / 營運部門會更新授權詳細資料、例如網站數量或訂閱結束日期。LMS 查詢訂購服務後、會自動更新 LMS 執行個體上的授權詳細資料、並套用至您的 GFC Core 和 Edge 執行個體。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
   <block id="077a85a83497688c4768eb7e293d344f" category="paragraph">Cloud Manager 支援的全域檔案快取版本要求、作為中央儲存設備的後端儲存平台必須是在 Cloud Volumes ONTAP Azure 或 AWS 中部署了一個單一節點或 HA 配對的工作環境。</block>
-  <block id="99f7abe9affc2a21c16a77c9bb170233" category="paragraph">目前不支援使用 Cloud Manager 的其他儲存平台和其他雲端供應商、但可以使用舊版部署程序來部署。</block>
   <block id="01eb0b4b5071a2cfc0876bc37b144a78" category="inline-link-macro">全域檔案快取總覽與就職</block>
-  <block id="3b6e014ea92c423b54ec451d5fea8f9d" category="paragraph">這些其他組態、例如在 Cloud Volumes ONTAP Microsoft Azure 、 Google Cloud 或 AWS 上使用支援使用支援功能的全域檔案快取、 Cloud Volumes Service 也就是使用舊版程序。請參閱 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
   <block id="e0533a7cc48f1b65dc6efe4d93506732" category="sidebar">全域檔案快取文件</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
@@ -598,4 +574,38 @@
   <block id="f12e4f9c6c0ea52ff0c85be8308ff143" category="list-text">升級時、Microsoft可轉散發套件的正確版本未正確安裝、因此Tum無法啟動。已修正GFC安裝程式、以安裝可重新分配的正確版本。</block>
   <block id="e4e361b13d8ce3c010df78be535b3aeb" category="list-text">現在、GFC授權管理員服務（LMS）會更新組態資訊、而非覆寫資訊。</block>
   <block id="08b34be098f59c81e94653cf34a7c9ae" category="list-text">在升級過程中、組態UI現在會連結至正確的System.net.http dll。</block>
+  <block id="2587d926ced67aed88e0f563b987461b" category="admonition">在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8。</block>
+  <block id="6cf141680c0334de379f689cbeaa3b2d" category="paragraph">Global File Cache Core執行個體會掛載至您所選後端儲存平台（例如Cloud Volumes ONTAP ：Cloud Volumes Service 並建立全域檔案快取「Fabric」、無論資料位於公有雲的一或多個儲存平台上、都能將非結構化資料集中並整合至單一資料集。Azure NetApp Files</block>
+  <block id="fc1d446f2d6669bec4ad1659ec4d3e1f" category="paragraph">全域檔案快取組態也支援Cloud Volumes ONTAP 使用安裝Cloud Volumes Service 在公有雲儲存基礎架構上的適用於Azure NetApp Files 各種系統的支援功能、包括：ONTAPNetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用Cloud Manager。</block>
+  <block id="35ca268e4e28a68df6a6a7a036db06fa" category="list-text">所有安裝都需要在雲端部署一或多個磁碟區（例如Cloud Volumes ONTAP 、例如、列舉、Cloud Volumes Service 顯示或Azure NetApp Files 顯示）。這會從所選的雲端供應商收取費用。</block>
+  <block id="bab3e5cc0aa04608e9b8b4265196697d" category="list-text">在Cloud Volumes ONTAP Azure或AWS中安裝搭配使用時（透過Cloud Manager完全部署支援的組態）、有兩種定價選項可供選擇：</block>
+  <block id="291bd74fa12d16e84f830819cbdad5c5" category="list-text">對於Azure或AWS中的系統、您每年可為每個Global File Cache Edge執行個體支付3、000美元。Cloud Volumes ONTAP</block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">如需詳細資訊、請參閱此處</block>
+  <block id="623692f0d22bbb5a97cac1afe932d1ba" category="list-text">或者、對於Cloud Volumes ONTAP Azure中的不二系統、您也可以選擇Cloud Volumes ONTAP 「不二邊快取」套件。此容量型授權可讓您針對已配置容量的每3個TiB、部署單一的Global File Cache Edge執行個體。<block ref="35ff2d66b85e74dad13c74d82001d0b0" category="inline-link-rx"></block>。</block>
+  <block id="ff0beb597406ae3edf94ed38baf30c6b" category="paragraph">目前不支援使用 Cloud Manager 的其他儲存平台和其他雲端供應商、但可以使用舊版部署程序來部署。這些其他組態Cloud Volumes ONTAP 、例如在Cloud Volumes Service Google Cloud上使用支援功能的整體檔案快取、Azure NetApp Files 在ONTAP 支援功能的Amazon FSX系統上使用支援功能、例如使用功能支援功能的整體檔案快取、或是使用舊版程序。請參閱 <block ref="fa63b406bdb9a9e3c27b49aa6f287806" category="inline-link-macro-rx"></block> 以取得詳細資料。</block>
+  <block id="a207f0479f1471fc5336b474cf75c28a" category="section-title">2022年7月25日（2.0版）</block>
+  <block id="8fce252333669c3cf55b3ff49aa55f09" category="list-text">透過新增邊界限制至日期/時間參數以增加預先填裝工作組態、可增強Optimus效能。</block>
+  <block id="fc8535e7a72afd618bd1f73c8a0e81a1" category="list-text">Optimus PSM現在會在系統預先申請詳細資料中顯示正確的CPU詳細資料。</block>
+  <block id="4ab2e2d92c22b62e2daa6261704b2d7f" category="list-text">修正在Edge Sync組態期間、輸入協調者詳細資料和按一下「重新整理」按鈕之間的UI例外狀況。</block>
+  <block id="4d6386a8d846fb134f2cb55a31f16e13" category="list-text">增強Optimus UI功能、以啟用/停用邊緣的Edge Sync功能。</block>
+  <block id="9f59b2e065c17b264179bc2a32cb9720" category="list-text">所學專業：電子商務（電子商務）</block>
+  <block id="1c4027933d3e02d7db8558ca13691cb6" category="list-text">修正Optimus PSM以顯示租賃計數資訊。</block>
+  <block id="4fed480928967df6ad6ade9613b54583" category="list-text">在升級期間、固定授權管理伺服器在組態更新程式上的邏輯。</block>
+  <block id="0cdaa1584e91bdecaff25609aa4f9058" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
+  <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能</block>
+  <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。</block>
+  <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">深入瞭解Edge Cache授權套件。</block>
+  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
+  <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">全域檔案快取現在已整合Cloud Insights 至功能性</block>
+  <block id="acb729f8fd6ddd0e3a9a1a39397d6274" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。</block>
+  <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">深入瞭Cloud Insights 解功能。</block>
+  <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
+  <block id="1f56bc157b53331171e2209738abd411" category="section-title">授權管理伺服器已經過強化、可在極具限制的環境中運作</block>
+  <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">在授權組態期間、授權管理伺服器（LMS）應可存取網際網路、以便向NetApp/期望職位收集授權詳細資料。一旦組態成功、LMS就能繼續以離線模式運作、並提供授權功能、即使在限制嚴格的環境中。</block>
+  <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單</block>
+  <block id="24c153e30c311602185df383bdc152fd" category="section-title">已將Openssl模組升級至1.1.1版</block>
+  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">記錄基礎架構已經增強</block>
+  <block id="a32799b1f053cab992e96504f5e2a852" category="section-title">已新增「Edge同步」功能</block>
+  <block id="d64bdda8a160976125ee5ff8cdfbe0d3" category="section-title">已將Openssl模組升級至1.1.1版</block>
+  <block id="3d21100b5eafca8a568ec636ec4eeba5" category="section-title">更新授權登錄頁面</block>
 </blocks>
