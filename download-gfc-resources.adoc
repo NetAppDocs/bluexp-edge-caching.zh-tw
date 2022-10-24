@@ -25,12 +25,12 @@ summary: 在遠端辦公室開始安裝 Global File Cache Edge 軟體之前、�
 * Windows Server 2016 虛擬範本：
 +
 https://repo.cloudsync.netapp.com/gfc/2K16-1_3_0_41.zip["Windows Server 2016 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
-https://repo.cloudsync.netapp.com/gfc/2k16_GFC_1_3_0_41IMAGE.zip["Windows Server 2016 .VHDX 、包括 NetApp GFC （ Microsoft Hyper-V ）"^]
+https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["Windows Server 2016 .VHDX 、包括 NetApp GFC （ Microsoft Hyper-V ）"^]
 
 * Windows Server 2019 虛擬範本：
 +
 https://repo.cloudsync.netapp.com/gfc/2K19-1_3_0_41.zip["Windows Server 2019 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
-https://repo.cloudsync.netapp.com/gfc/2k19_GFC_1_3_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）在內的 Windows Server 2019 .VHDX"^]
+https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）在內的 Windows Server 2019 .VHDX"^]
 
 * 全域檔案快取 Edge 軟體：
 +
@@ -42,7 +42,7 @@ https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM管理套件�
 
 * 全域檔案快取文件：
 +
-https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.docx["NetApp全域檔案快取使用者指南（.DOCX）"^]
+https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南（ .PDF ）"^]
 
 
 
@@ -149,7 +149,7 @@ VMware vSphere 6.x 及更新版本：
 
 全域檔案快取智慧型檔案快取磁碟（ D： \ ）上的磁碟延遲、應能為每個並行使用者提供 < 0.5 毫秒的平均 I/O 磁碟延遲和 1 個 1TBps 處理量。
 
-如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
 
 
 
@@ -170,7 +170,7 @@ VMware vSphere 6.x 及更新版本：
 
 為確保最佳體驗與效能、請務必遵守《全球檔案快取使用指南》中所述的 Microsoft Windows 用戶端要求與最佳實務做法。這適用於所有版本的 Microsoft Windows 。
 
-如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
 
 
 
@@ -178,7 +178,7 @@ VMware vSphere 6.x 及更新版本：
 
 雖然 Global File Cache 盡合理努力驗證最常見的防毒應用程式套件是否與 Global File Cache 相容、但 NetApp 無法保證這些程式所造成的任何不相容或效能問題、或是相關的更新、 Service Pack 或修改、也不承擔任何責任。
 
-全域檔案快取不建議在任何啟用全域檔案快取的執行個體（核心或邊緣）上安裝或應用監控或防毒解決方案。如果是依選擇或原則安裝解決方案、則必須套用下列最佳實務做法和建議。如需一般防毒套件、請參閱中的附錄 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+全域檔案快取不建議在任何啟用全域檔案快取的執行個體（核心或邊緣）上安裝或應用監控或防毒解決方案。如果是依選擇或原則安裝解決方案、則必須套用下列最佳實務做法和建議。如需一般防毒套件、請參閱中的附錄 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
 
 
 
@@ -209,7 +209,7 @@ VMware vSphere 6.x 及更新版本：
 
 NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造成 10 – 20% 的影響。
 
-如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%201.3.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+如需詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
 
 
 

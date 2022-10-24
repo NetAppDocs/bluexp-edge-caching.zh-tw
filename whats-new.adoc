@@ -18,6 +18,12 @@ summary: 瞭解Global File Cache的新功能。
 
 
 
+== 2022年10月24日（2.1版）
+
+2.1版的Global File Cache Edge軟體可從取得 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
+
+
+
 == 2022年7月25日（2.0版）
 
 此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
@@ -94,7 +100,7 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 === 已新增「Edge同步」功能
 
-此功能可讓遠端辦公室的多個邊緣保持同步、而且資料永遠會快取/暖化。當某個檔案在某個Edge上被清除/擷取時、參與Edge Sync的所有Edge上的相同檔案都會更新並快取。請參閱第8.4節 https://repo.cloudsync.netapp.com/gfc/Netapp%20GFC%20User%20Guide%201.1.0.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
+此功能可讓遠端辦公室的多個邊緣保持同步、而且資料永遠會快取/暖化。當某個檔案在某個Edge上被清除/擷取時、參與Edge Sync的所有Edge上的相同檔案都會更新並快取。請參閱第8.4節 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
 
 
 
