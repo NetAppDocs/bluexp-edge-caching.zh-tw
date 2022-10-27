@@ -36,10 +36,6 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["包括 NetApp 
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 軟體安裝套件（ .Exe ）"^]
 
-* 全域檔案快取SCOM（Microsoft Systems Center Operations Manager）套件：
-+
-https://repo.cloudsync.netapp.com/gfc/SCOM-151.zip["NetApp GFC SCOM管理套件（.ZIP）"]
-
 * 全域檔案快取文件：
 +
 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南（ .PDF ）"^]
@@ -49,7 +45,7 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["請遵循下列步驟"] 升級您的Global File Cache Edge軟體。
 
 
-NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8。
+NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows Web View2架構。
 
 
 
@@ -204,7 +200,7 @@ VMware vSphere 6.x 及更新版本：
 
 === 防毒最佳實務做法
 
-本節可協助您瞭解在執行全域檔案快取的 Windows Server 執行個體上執行防毒軟體時的需求。Global File Cache 已測試最常用的防毒產品、包括 Cylinance 、 McAfee 、 Symantec 、 Sophos 、趨勢 Micro 、 卡巴斯基和 Windows Defender 搭配全域檔案快取一起使用。
+本節可協助您瞭解在執行全域檔案快取的 Windows Server 執行個體上執行防毒軟體時的需求。Global File Cache已測試最常用的防毒產品、包括Cylinance、McAfee、Symantec、Sophos、趨勢Micro、 卡巴斯基、群眾攻擊、Cisco AMP、Tannium和Windows Defender、可搭配全域檔案快取一起使用。防毒軟體應通過NetApp認證、且僅在設定適當的排除清單時才受支援。請參閱中的附錄A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
 
 
 NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造成 10 – 20% 的影響。
@@ -228,6 +224,7 @@ NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造�
 * 「 C:\Program Files\TalonFAST\Bin \Tapp.exe 」
 * 「C：\Program Files\TalonFAST\Bin \Tappn.exe」
 * 「C:\Program Files\TalonFAST\Bin \FTLSummaryGenerator.exe」
+* 'C:\Program Files\TalonFAST\Bin \GfcCIAgent Service.exe'
 * 「C：\Program Files\TalonFAST\Bin \RFASTSetup Wizard．exe」
 * 「 C:\Program Files\TalonFAST\Bin \TService.exe 」
 * 「 C:\Program Files\TalonFAST\Bin \tum.exe 」

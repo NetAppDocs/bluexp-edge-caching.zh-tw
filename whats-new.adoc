@@ -20,7 +20,27 @@ summary: 瞭解Global File Cache的新功能。
 
 == 2022年10月24日（2.1版）
 
-2.1版的Global File Cache Edge軟體可從取得 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
+
+
+
+=== 全域檔案快取現在可搭配任意數量的授權使用
+
+先前的10份授權（即30 TB儲存容量）最低需求已移除。每3 TB儲存空間將會核發一份全域檔案快取授權。
+
+
+
+=== 已新增使用離線授權管理伺服器的支援
+
+當LMS沒有網際網路連線、無法使用授權來源進行授權驗證時、離線或暗線站台的授權管理伺服器（LMS）最有用。初始組態期間需要網際網路連線和授權來源連線。設定完成後、LMS執行個體可能變暗。所有邊緣/核心都應與LMS建立連線、以持續驗證授權。
+
+
+
+=== 增強的Optimus PSM可設定雲端授權
+
+
+
+=== 強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端
 
 
 
@@ -40,7 +60,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 === 全域檔案快取現在已整合Cloud Insights 至功能性
 
-NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。
+NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
 
 https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
@@ -91,25 +111,3 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 
 
 === 記錄基礎架構已經增強
-
-
-
-== 2021年6月9日（1.1.0版）
-
-
-
-=== 已新增「Edge同步」功能
-
-此功能可讓遠端辦公室的多個邊緣保持同步、而且資料永遠會快取/暖化。當某個檔案在某個Edge上被清除/擷取時、參與Edge Sync的所有Edge上的相同檔案都會更新並快取。請參閱第8.4節 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
-
-
-
-=== 已將Openssl模組升級至1.1.1版
-
-這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。
-
-
-
-=== 更新授權登錄頁面
-
-GFC授權登錄頁面現在會顯示透過NetApp訂閱啟動的授權數量。

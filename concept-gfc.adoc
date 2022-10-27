@@ -123,7 +123,7 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 +
 ** 全域檔案快取管理伺服器：
 +
-在Azure中、此功能可在具有127 GB優質SSD的D2S_V3或同等（2個vCPU / 8 GB RAM）VM上執行
+在Azure中、此功能可在具有127 GB標準SSD的D2S_V3或同等（2個vCPU / 8 GB RAM）VM上執行
 
 +
 在AWS中、這會在具有127 GB通用SSD的m4.large或等效（2 vcpU/8 GB RAM）執行個體上執行
