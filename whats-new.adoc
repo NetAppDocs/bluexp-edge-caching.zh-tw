@@ -20,7 +20,7 @@ summary: 瞭解Global File Cache的新功能。
 
 == 2022年10月24日（2.1版）
 
-此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。
+此版本提供下列新功能。也可修正中所述的問題 https://docs.netapp.com/us-en/cloud-manager-file-cache/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/cloud-manager-file-cache/download-gfc-resources.html#download-required-resources["本頁"]。
 
 
 
@@ -33,6 +33,12 @@ summary: 瞭解Global File Cache的新功能。
 === 已新增使用離線授權管理伺服器的支援
 
 當LMS沒有網際網路連線、無法使用授權來源進行授權驗證時、離線或暗線站台的授權管理伺服器（LMS）最有用。初始組態期間需要網際網路連線和授權來源連線。設定完成後、LMS執行個體可能變暗。所有邊緣/核心都應與LMS建立連線、以持續驗證授權。
+
+
+
+=== Edge執行個體可支援其他並行使用者
+
+單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。
 
 
 

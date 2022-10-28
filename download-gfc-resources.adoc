@@ -24,17 +24,21 @@ summary: 在遠端辦公室開始安裝 Global File Cache Edge 軟體之前、�
 
 * Windows Server 2016 虛擬範本：
 +
-https://repo.cloudsync.netapp.com/gfc/2K16-1_3_0_41.zip["Windows Server 2016 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
+https://repo.cloudsync.netapp.com/gfc/2k16-2.1.zip["Windows Server 2016 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
 https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_1_0_31IMAGE.zip["Windows Server 2016 .VHDX 、包括 NetApp GFC （ Microsoft Hyper-V ）"^]
 
 * Windows Server 2019 虛擬範本：
 +
-https://repo.cloudsync.netapp.com/gfc/2K19-1_3_0_41.zip["Windows Server 2019 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
+https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 2019 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
 https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_1_0_31IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）在內的 Windows Server 2019 .VHDX"^]
 
 * 全域檔案快取 Edge 軟體：
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-1-0-31-Release.exe["NetApp GFC 軟體安裝套件（ .Exe ）"^]
+
+* 全域檔案快取儀表板Cloud Insights 、提供下列功能：
++
+https://repo.cloudsync.netapp.com/gfc/ci-gfc-dashboards.zip["NetApp GFC Cloud Insights 的功能不一（.ZIP）"]
 
 * 全域檔案快取文件：
 +
@@ -45,7 +49,7 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Gui
 link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["請遵循下列步驟"] 升級您的Global File Cache Edge軟體。
 
 
-NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows Web View2架構。
+NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows WebView2架構。
 
 
 

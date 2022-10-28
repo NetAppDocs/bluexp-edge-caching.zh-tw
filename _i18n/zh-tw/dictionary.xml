@@ -636,12 +636,7 @@
   <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
   <block id="ad0c7a22fde49fbb11b817c08acbd362" category="paragraph"><block ref="ad0c7a22fde49fbb11b817c08acbd362" category="inline-link-rx"></block></block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
-  <block id="2331299ea4e1274ea1e795e9061e6f4f" category="paragraph">請參閱的第13章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 以取得其他資料。</block>
   <block id="c12a9331c62a66dbe42e75f038a71f7a" category="list-text"><block ref="c12a9331c62a66dbe42e75f038a71f7a" category="inline-link-rx"></block></block>
-  <block id="5e69691f5d475a3b65c0155011543ee9" category="paragraph"><block ref="f5576b6632dde85ccf0d016507692a9d" category="inline-link-rx"></block>
-<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
-  <block id="20e4d382da5a62bf07e7f79eb29f3a71" category="paragraph"><block ref="a53645675256480c99fed4a542cb3aca" category="inline-link-rx"></block>
-<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
   <block id="5ce7f81a8ae145f3b72b93e3696353d9" category="inline-link">NetApp 全球檔案快取使用者指南（ .PDF ）</block>
   <block id="1d1bfd34476102ea6ec7ced86c8e9040" category="paragraph"><block ref="1d1bfd34476102ea6ec7ced86c8e9040" category="inline-link-rx"></block></block>
   <block id="bb032dd5c38245e2d3146751c045fe34" category="paragraph">如需詳細資訊、請參閱<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block>。</block>
@@ -658,7 +653,6 @@
   <block id="ef4cb0e259adaefa47416a87fabc3c35" category="list-text">修正Optimus組態UI在按一下「登錄執行個體至CI」按鈕時不會掛起。</block>
   <block id="806b6ec151c368ef2f2399efcb865ab5" category="list-text">修正初始組態期間Tservice監控器仍需手動執行的問題。</block>
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">修正GFC CI Agent用戶端服務中的次要錯誤。</block>
-  <block id="2a2ba06a5d72a7a43d2202f6a8a6296f" category="admonition">在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows Web View2架構。</block>
   <block id="6455f1f0c6620c2d02084eaf5b65e986" category="paragraph">本節可協助您瞭解在執行全域檔案快取的 Windows Server 執行個體上執行防毒軟體時的需求。Global File Cache已測試最常用的防毒產品、包括Cylinance、McAfee、Symantec、Sophos、趨勢Micro、 卡巴斯基、群眾攻擊、Cisco AMP、Tannium和Windows Defender、可搭配全域檔案快取一起使用。防毒軟體應通過NetApp認證、且僅在設定適當的排除清單時才受支援。請參閱中的附錄A<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin \GfcCIAgent Service.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">在Azure中、此功能可在具有127 GB標準SSD的D2S_V3或同等（2個vCPU / 8 GB RAM）VM上執行</block>
@@ -669,9 +663,21 @@
   <block id="9952545455211dde3dd54a36ff1e0fd9" category="paragraph">當LMS沒有網際網路連線、無法使用授權來源進行授權驗證時、離線或暗線站台的授權管理伺服器（LMS）最有用。初始組態期間需要網際網路連線和授權來源連線。設定完成後、LMS執行個體可能變暗。所有邊緣/核心都應與LMS建立連線、以持續驗證授權。</block>
   <block id="7954886e5818e91e397e0ca331d15d48" category="section-title">增強的Optimus PSM可設定雲端授權</block>
   <block id="3bf86cee85be3992be11d6813b4f6b14" category="section-title">強化Optimus UI（Edge組態）中的Edge Sync功能、以顯示所有連線的用戶端</block>
-  <block id="51bf740c4d4976d09a651540625df6fd" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
   <block id="9cbdd46155d21eeb894d82c0612ab801" category="paragraph">在快取演算法和檔案層級差異方面、 Global File Cache Edge 可處理繁重的工作負載。單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。這在相當程度上取決於最常見工作負載的類型和平均檔案大小。若為較大型的協作檔案類型、請根據實體或虛擬部署、引導使用者達到每個 Global File Cache Edge 下限的最大使用者人數（視實體或虛擬部署而定）的 50% 。如需平均檔案大小低於 1MB 的較常見 Office 項目、請向每個全域檔案快取 Edge 上限的 100% 使用者（視實體或虛擬部署而定）提供指南。</block>
   <block id="ef240c0052e8156425d8b39cfeb2d632" category="admonition">全域檔案快取Edge會偵測它是否在虛擬或實體執行個體上執行、並將本機虛擬檔案共用的SMB連線數目限制為最多300或500個並行連線。</block>
   <block id="23fc360c2573b4c9bee90db0e02de4cd" category="list-text">\https://rest.zuora.com/v1/subscriptions/</block>
   <block id="aa2be03e10176973cbb1d2299c98996b" category="list-text">LMS執行個體必須能夠使用HTTPS（TCP連接埠443）連線至訂閱服務（公有網際網路）。</block>
+  <block id="df19cf6281f0ac141839cda71b8136bb" category="paragraph">請參閱的第14章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block> 以取得其他資料。</block>
+  <block id="5125c5dbc4823481461bfada1bc11efd" category="paragraph"><block ref="3a81a4f05e21aa91091722261afd5aaf" category="inline-link-rx"></block>
+<block ref="b01859cc1fbd73f5b9a9154d79ae85fc" category="inline-link-rx"></block></block>
+  <block id="68bd2d9dc8ce644fa266363eb3c8a2a4" category="paragraph"><block ref="c63479f0fbc3dbee0fb764d414be40d7" category="inline-link-rx"></block>
+<block ref="7185d928ff4f453b95f1143740ffdcd5" category="inline-link-rx"></block></block>
+  <block id="a82f8775c45fb832c573ea5925281014" category="list-text">全域檔案快取儀表板Cloud Insights 、提供下列功能：</block>
+  <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights 的功能不一（.ZIP）</block>
+  <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
+  <block id="c1fa707a3e59855bf910866f7bab29df" category="admonition">在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows WebView2架構。</block>
+  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
+  <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">Edge執行個體可支援其他並行使用者</block>
+  <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。</block>
+  <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
 </blocks>
