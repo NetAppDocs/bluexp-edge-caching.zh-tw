@@ -30,18 +30,23 @@ summary: 您可以使用BlueXP在工作環境中部署全域檔案快取管理�
 
 請依照下列步驟快速入門、或向下捲動至其餘部分以取得完整詳細資料：
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
 在 Cloud Volumes ONTAP Azure 或 AWS 中部署支援功能、並設定 SMB 檔案共用。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 部署全域檔案快取管理伺服器
 [role="quick-margin-para"]
 將 Global File Cache Management Server 的執行個體部署在 Cloud Volumes ONTAP 與執行個體相同的工作環境中。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["三"] 部署全域檔案快取核心
 [role="quick-margin-para"]
 在 Cloud Volumes ONTAP 與執行個體相同的工作環境中、部署全域檔案快取核心的執行個體或多個執行個體、並將其加入 Active Directory 網域。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["四"] 授權全域檔案快取
 [role="quick-margin-para"]
 在全域檔案快取核心執行個體上設定全域檔案快取授權管理伺服器（ LMS ）服務。您需要使用 NetApp 提供的新增資信或客戶 ID 和訂閱號碼、才能啟動您的訂閱。
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-5.png["五"] 部署全域檔案快取 Edge 執行個體
 [role="quick-margin-para"]
 請參閱 link:task-deploy-gfc-edge-instances.html["部署全域檔案快取 Edge 執行個體"^] 在每個遠端位置部署全域檔案快取 Edge 執行個體。此步驟並未使用BlueXP完成。
 
@@ -151,6 +156,7 @@ image:screenshot_gfc_license_subscription.png["在 GFC 授權訂閱頁面中輸�
 . 您也可以按一下 * 授權資訊 * 索引標籤、檢視所有的 GFC 授權資訊。
 
 
+.接下來呢？
 如果您確定需要部署多個全域檔案快取核心來支援組態、請按一下儀表板中的 * 「 Add Core Instanced* （新增核心執行個體 * ）」、然後依照部署精靈的指示進行。
 
 完成核心部署之後、您需要 link:download-gfc-resources.html["部署全域檔案快取 Edge 執行個體"^] 在您的每個遠端辦公室。
