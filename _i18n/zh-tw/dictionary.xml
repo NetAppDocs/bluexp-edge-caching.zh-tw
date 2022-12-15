@@ -18,7 +18,6 @@
   <block id="e9b776ca4aec81050e673f885b2eac06" category="doc">開始部署全域檔案快取之前</block>
   <block id="cd738516a0c7368cddca5d2174fbd3ce" category="section-title">全域檔案快取核心設計考量</block>
   <block id="6e85eb06ef3edf77062f6d45c1910526" category="paragraph">視您的需求而定、您可能需要部署一或多個全域檔案快取核心執行個體、才能建立全域檔案快取架構。核心執行個體的設計是做為分散式 Global File Cache Edge 執行個體與資料中心檔案伺服器資源之間的流量 COP 、例如檔案共用、資料夾和檔案。</block>
-  <block id="12b3668e4ae5e9987b7658b649439e54" category="paragraph">當您在設計全域檔案快取部署時、需要判斷在規模、資源可用度及備援方面、哪些是最適合您環境的選擇。全域檔案快取核心可透過下列方式部署：</block>
   <block id="5d60d6afb236f653125b44b76be39ca9" category="list-text">GFC 核心獨立執行個體</block>
   <block id="3f56cdce3a042ceab7f4ba6e1cf5f6f7" category="list-text">GFC 核心負載分散式設計（冷備份）</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
@@ -39,7 +38,6 @@
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">請按這裡</block>
   <block id="b51baa22d09e6c9f1931a23ebef6347d" category="paragraph">說明全域檔案快取 Edge 先決條件 <block ref="dc13b95521107f0e6174e0d4f00812b4" category="inline-link-macro-rx"></block>。</block>
   <block id="891a589deeeaf68084584fbfae4c3ae7" category="section-title">儲存平台（ Volume ）</block>
-  <block id="e6da02886af47462759989718f62ea49" category="paragraph">在這種情況下、您部署 Cloud Volumes ONTAP 的後端儲存平台應該會顯示 SMB 檔案共用。透過「全域檔案快取」公開的任何共用都必須允許共用層級的「所有人」群組「完全控制」、同時透過 NTFS 權限限制權限。</block>
   <block id="152468376710017819b274fb14a70617" category="paragraph">如果 Cloud Volumes ONTAP 您尚未在這個例子上設定至少一個 SMB 檔案共用區、則需要準備好下列資訊、以便在安裝期間設定這些資訊：</block>
   <block id="981640f9fb09fe09a937c7da955d9dfb" category="list-text">Active Directory 網域名稱、名稱伺服器 IP 位址、 Active Directory 管理認證。</block>
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">您要建立的磁碟區名稱和大小、要建立磁碟區的集合體名稱、以及共用名稱。</block>
@@ -80,7 +78,6 @@
   <block id="5ed3a104f8850c15acaec08814cbd9b4" category="list-text">\https://talonlicensing.table.core.windows.net</block>
   <block id="a5fa5746370b608090b994a97b49e98b" category="section-title">網路</block>
   <block id="8503ae56f9a302bb9d549115b584b0fc" category="list-text">防火牆：應該允許在「全域檔案快取邊緣」和「核心」執行個體之間使用 TCP 連接埠。</block>
-  <block id="6c912ddbaed2bf80fe819c9899e03b7d" category="list-text">全域檔案快取 TCP 連接埠： 443 （ HTTPS ）、 6618 – 6630 。</block>
   <block id="9e3e7b6b69b143adaf0ad3ceb48aae35" category="list-text">網路最佳化裝置（例如 Riverbed Steelhead ）必須設定為傳遞全域檔案快取特定連接埠（ TCP 6618-6630 ）。</block>
   <block id="58f57692df8741b4af1f9f288c57dcfa" category="summary">請使用下列連結、深入瞭解 Global File Cache 及其他 NetApp 產品。</block>
   <block id="0f68b904e33d9ac04605aecc958bcf52" category="doc">其他資訊</block>
@@ -115,7 +112,6 @@
   <block id="05afb31a8c6a9f33471f04fc566255e1" category="summary">瞭解Global File Cache的新功能。</block>
   <block id="6d712ec6825e52d97c46202643237199" category="doc">Global File Cache的新功能</block>
   <block id="df62d5ca9c29346bfeb41f9581ecdf5b" category="section-title">2021年12月17日（1.2.0版）</block>
-  <block id="9d15f44f2f441c9fbcdc28d40b323389" category="paragraph">這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。</block>
   <block id="fe8d9a8dc9b5c669ccbe68b53409dd26" category="summary">您將需要訓練使用者如何透過「全域檔案快取」存取共用檔案的最佳實務做法。</block>
   <block id="1953aca0238eceda58cb0a10075ecc1e" category="doc">終端使用者訓練</block>
   <block id="1c616cd5519ad90d3152c98868c34e70" category="paragraph">這是「全域檔案快取」部署（終端使用者實作階段）的最後階段。</block>
@@ -529,8 +525,6 @@
   <block id="1f56bc157b53331171e2209738abd411" category="section-title">授權管理伺服器已經過強化、可在極具限制的環境中運作</block>
   <block id="706163f56e3d19088d2a54cd0451269e" category="paragraph">在授權組態期間、授權管理伺服器（LMS）應可存取網際網路、以便向NetApp/期望職位收集授權詳細資料。一旦組態成功、LMS就能繼續以離線模式運作、並提供授權功能、即使在限制嚴格的環境中。</block>
   <block id="1b66d26240c6a01df03ec7dc4a6d1a2b" category="section-title">Optimus中的Edge Sync UI已增強功能、可在協調者Edge上顯示連線的用戶端清單</block>
-  <block id="24c153e30c311602185df383bdc152fd" category="section-title">已將Openssl模組升級至1.1.1版</block>
-  <block id="e3c8f19755f12539be7c74e7dc14b3fe" category="section-title">記錄基礎架構已經增強</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">在Cloud Volumes ONTAP 雲端供應商的市場中註冊與訂閱相關的支援服務序號（這些序號為20位數909601xxxxxxxx序號）。</block>
@@ -695,4 +689,8 @@
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">從「Support Registration（支援註冊）」頁面找到您的帳戶ID序號。</block>
   <block id="50a1dc01b7312307c34a888071586955" category="list-text">複製上述步驟2的帳戶序號、完成安全性檢查、然後確認您已閱讀NetApp的全球資料隱私權政策。</block>
   <block id="cc8b0535948da368f832027c19b7f853" category="list-text">請務必複製上述序號欄位使用的帳戶序號（960xxxx）。這將加速帳戶處理。</block>
+  <block id="d0ae1d418af223e06e706dd1705e0d76" category="paragraph">在設計全域檔案快取部署時、您需要判斷環境的規模、資源可用度及備援能力。全域檔案快取核心可透過下列方式部署：</block>
+  <block id="eebe944a361fcd12586147893245a793" category="paragraph">後端儲存平台Cloud Volumes ONTAP （在此案例中為您部署的實例）應呈現SMB檔案共用。透過「全域檔案快取」公開的任何共用都必須允許共用層級的「所有人」群組「完全控制」、同時透過 NTFS 權限限制權限。</block>
+  <block id="ca8b4d0fc39e2135cbcdf391be62059b" category="list-text">\https://gfcproxyforcm-prod.azurewebsites.net/</block>
+  <block id="e59af2ecfd4c7dd3a53e6980dc28d267" category="list-text">全域檔案快取TCP連接埠：443（HTTPS）、6618-6630。</block>
 </blocks>

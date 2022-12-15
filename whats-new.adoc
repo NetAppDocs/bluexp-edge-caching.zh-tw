@@ -103,17 +103,3 @@ https://cloud.netapp.com/cloud-insights["深入瞭Cloud Insights 解功能。"]
 === License Manager服務增強功能
 
 全域檔案快取授權管理伺服器（LMS）服務已增強、可自動偵測Proxy設定。如此可實現無縫組態。
-
-
-
-== 2021年12月17日（1.2.0版）
-
-
-
-=== 已將Openssl模組升級至1.1.1版
-
-這是最新版本、而且更安全。此模組用於GFC Edge與GFC Core之間的安全通訊。
-
-
-
-=== 記錄基礎架構已經增強
