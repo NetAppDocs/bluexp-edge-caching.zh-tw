@@ -67,7 +67,7 @@ summary: 在您確認環境符合所有需求之後、您可以在每個遠端�
 ** 密碼： * Tal0nFAST ！ *
 
 
-. 設定您的 Windows Server VM 、加入組織的 Active Directory 網域、然後前往「全域檔案快取 Edge 組態」區段。
+. 設定您的 Windows Server VM 、加入組織的 Active Directory 網域、然後繼續前往「全域檔案快取 Edge 」組態區段。
 
 
 
@@ -131,4 +131,4 @@ NetApp建議您使用預設安裝位置。
 
 
 .接下來呢？
-如需 Global File Cache Edge 進階組態的詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+如需 Global File Cache Edge 進階組態的詳細資訊、請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。

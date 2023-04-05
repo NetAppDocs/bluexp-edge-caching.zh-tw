@@ -25,9 +25,9 @@ summary: 您將需要訓練使用者如何透過「全域檔案快取」存取�
 * 使用者訓練影片link:https://www.youtube.com/watch?v=RYvhnTz4bEA["終端使用者訓練影片"^]
 * 電子郵件範本link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Onboarding%20Email.emltpl["Mac 電子郵件範本（ .emltpl ）"]
 +
-link:https://docs.netapp.com/us-en/occm/media/Global_File_Cache_Onboarding_Email.msg["Windows 電子郵件範本（ .msg ）"]
+link:media/Global_File_Cache_Onboarding_Email.msg["Windows 電子郵件範本（ .msg ）"]
 
 * 就職通訊link:https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%20Customer%20Onboarding%20-%20Draft.docx["Word 文件（ .docx ）"]
 
 
-請參閱的第14章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得其他資料。
+請參閱的第14章 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得其他資料。

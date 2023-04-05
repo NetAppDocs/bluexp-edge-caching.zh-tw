@@ -36,7 +36,7 @@ image:diagram_gfc_image1.png["顯示遠端辦公室位置如何使用全域檔�
 * 透過即時中央檔案鎖定的全域命名空間、從分公司位置進行透明存取
 
 
-請參閱「全域檔案快取」功能和使用案例的詳細資訊 https://cloud.netapp.com/global-file-cache["請按這裡"^]。
+請參閱「全域檔案快取」功能和使用案例的詳細資訊 https://bluexp.netapp.com/global-file-cache["請按這裡"^]。
 
 
 
@@ -67,6 +67,7 @@ image:diagram_gfc_image2.png["顯示在遠端辦公室和雲端中央伺服器�
 
 * Azure 中的 Cloud Volumes ONTAP
 * AWS 中的 Cloud Volumes ONTAP
+* Google Cloud 中的 Cloud Volumes ONTAP
 
 
 此組態可讓您從BlueXP部署及管理整個全域檔案快取伺服器端部署、包括全域檔案快取管理伺服器和全域檔案快取核心。
@@ -75,9 +76,9 @@ image:diagram_gfc_image2.png["顯示在遠端辦公室和雲端中央伺服器�
 
 === 手動部署選項
 
-全域檔案快取組態也支援Cloud Volumes ONTAP 使用安裝Cloud Volumes Service 在公有雲儲存基礎架構上的適用於Azure NetApp Files 各種系統的支援功能、包括：ONTAPNetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用BlueXP。
+Cloud Volumes ONTAP 、 Azure NetApp Files 、 Amazon FSX for ONTAP 系統和 Cloud Volumes Service on Google Cloud 也支援全域檔案快取組態。NetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定及部署全域檔案快取伺服器端元件、而非使用BlueXP。
 
-請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
+請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得詳細資料。
 
 
 
@@ -137,10 +138,10 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 
 
 
-* 安裝Cloud Volumes ONTAP 時搭配Azure或AWS使用（完全透過BlueXP部署支援的組態）、有兩種定價選項可供選擇：
+* 與 Cloud Volumes ONTAP 一起安裝（透過 BlueXP 完全部署支援的組態）時、有兩種定價選項：
 +
-** 對於Azure或AWS中的系統、您每年可為每個Global File Cache Edge執行個體支付3、000美元。Cloud Volumes ONTAP
-** 或者、對於Cloud Volumes ONTAP Azure中的不二系統、您也可以選擇Cloud Volumes ONTAP 「不二邊快取」套件。此容量型授權可讓您針對已配置容量的每3個TiB、部署單一的Global File Cache Edge執行個體。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["如需詳細資訊、請參閱此處"]。
+** 對於 Cloud Volumes ONTAP 系統、您每年可為每個 Global File Cache Edge 執行個體支付 3 、 000 美元。
+** 或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一通用檔案快取 Edge 執行個體。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["如需詳細資訊、請參閱此處"]。
 
 
 * 使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱 https://cloud.netapp.com/global-file-cache/roi["計算您的節約潛力"^] 或洽詢您的全球檔案快取解決方案工程師、以討論企業部署的最佳選項。
@@ -156,12 +157,12 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上全域檔案快取元件�
 
 當您購買額外的 Edge 授權或續約訂閱時、我們的支援 / 營運部門會更新授權詳細資料、例如網站數量或訂閱結束日期。LMS 查詢訂購服務後、會自動更新 LMS 執行個體上的授權詳細資料、並套用至您的 GFC Core 和 Edge 執行個體。
 
-請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.1.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得授權的其他詳細資料。
+請參閱 https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^] 以取得授權的其他詳細資料。
 
 
 
 == 限制
 
-在BlueXP中支援的Global File Cache版本要求您將做為中央儲存設備的後端儲存平台、必須是在Cloud Volumes ONTAP Azure或AWS中部署了一個僅供一個節點或HA配對的工作環境。
+BlueXP 支援的 Global File Cache 版本要求作為中央儲存設備的後端儲存平台必須是在 Azure 、 AWS 或 Google Cloud 中部署 Cloud Volumes ONTAP 單一節點或 HA 配對的工作環境。
 
-目前不支援使用BlueXP的其他儲存平台和其他雲端供應商、但可以使用舊版部署程序來部署。這些其他組態Cloud Volumes ONTAP 、例如在Cloud Volumes Service Google Cloud上使用支援功能的整體檔案快取、Azure NetApp Files 在ONTAP 支援功能的Amazon FSX系統上使用支援功能、例如使用功能支援功能的整體檔案快取、或是使用舊版程序。請參閱 link:https://cloud.netapp.com/global-file-cache/onboarding["全域檔案快取總覽與就職"^] 以取得詳細資料。
+目前不支援其他使用 BlueXP 的儲存平台、但可以使用舊版部署程序來部署。這些其他組態、例如、使用 Amazon FSX 的 ONTAP 系統、 Azure NetApp Files 或 Cloud Volumes Service 在 Google Cloud 上的全域檔案快取、則是使用舊版程序來支援。請參閱 https://bluexp.netapp.com/global-file-cache/onboarding["全域檔案快取總覽與就職"^] 以取得詳細資料。

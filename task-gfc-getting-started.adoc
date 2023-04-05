@@ -32,7 +32,7 @@ summary: 您可以使用BlueXP在工作環境中部署全域檔案快取管理�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
-在 Cloud Volumes ONTAP Azure 或 AWS 中部署支援功能、並設定 SMB 檔案共用。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]。
+部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 部署全域檔案快取管理伺服器
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ summary: 您可以使用BlueXP在工作環境中部署全域檔案快取管理�
 
 === 部署 Cloud Volumes ONTAP 作為您的儲存平台
 
-在目前版本中、 Global File Cache 支援 Cloud Volumes ONTAP 在 Azure 或 AWS 中部署的功能不全。如需詳細的先決條件、需求及部署指示、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^] 或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]。
+Global File Cache 支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
 
 請注意下列額外的全域檔案快取需求：
 
@@ -91,7 +91,7 @@ image:screenshot_gfc_install3.png["快照顯示建立 SMB 共用所需的資訊�
 image:screenshot_gfc_install4.png["顯示部署全域檔案快取管理伺服器和核心執行個體之前必備條件的快照。"]
 
 . 在您確認已符合要求、或您擁有符合這些要求的資訊之後、請按一下 * 繼續 * 。
-. 輸入用於存取 Global File Cache Management Server VM 的管理認證資料、然後按一下 * 啟用 GFC 服務 * 。對於 Azure 而言、您可以輸入使用者名稱和密碼的認證資料；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。
+. 輸入用於存取 Global File Cache Management Server VM 的管理認證資料、然後按一下 * 啟用 GFC 服務 * 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。
 +
 image:screenshot_gfc_install5.png["顯示設定全域檔案快取管理伺服器所需組態資訊的快照。"]
 
@@ -105,7 +105,7 @@ image:screenshot_gfc_install6.png["螢幕快照顯示設定全域檔案快取核
 
 
 
-. 輸入您將用來存取全域檔案快取核心 VM 的管理認證資料、然後按一下 * 部署 GFC 核心 * 。對於 Azure 而言、您可以輸入使用者名稱和密碼的認證資料；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。
+. 輸入您將用來存取全域檔案快取核心 VM 的管理認證資料、然後按一下 * 部署 GFC 核心 * 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。
 +
 image:screenshot_gfc_install7.png["顯示設定全域檔案快取核心執行個體所需組態資訊的快照。"]
 
@@ -182,7 +182,7 @@ image:screenshot_gfc_install6.png["螢幕快照顯示設定全域檔案快取核
 
 
 
-. 輸入您將用來存取全域檔案快取核心 VM 的管理認證資料、然後按一下 * 部署 GFC 核心 * 。對於 Azure 而言、您可以輸入使用者名稱和密碼的認證資料；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更 VM 名稱。
+. 輸入您將用來存取全域檔案快取核心 VM 的管理認證資料、然後按一下 * 部署 GFC 核心 * 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更 VM 名稱。
 +
 image:screenshot_gfc_install7.png["顯示設定全域檔案快取核心執行個體所需組態資訊的快照。"]
 
