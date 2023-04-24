@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: reference-gfc-additional-information.html 
 keywords: global file cache 
-summary: 請使用下列連結、深入瞭解 Global File Cache 及其他 NetApp 產品。 
+summary: 請使用下列連結深入瞭解 BlueXP 邊緣快取和其他 NetApp 產品。 
 ---
 = 其他資訊
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: 請使用下列連結、深入瞭解 Global File Cache 及其他 NetApp
 
 
 [role="lead"]
-請使用下列連結、深入瞭解 Global File Cache 及其他 NetApp 產品：
+請使用下列連結深入瞭解 BlueXP 邊緣快取和其他 NetApp 產品：
 
-* 全域檔案快取常見問題集
+* BlueXP 邊緣快取常見問題集
 +
 ** 請參閱常見問題集與解答清單 https://bluexp.netapp.com/global-file-cache-faq["請按這裡"^]
 
@@ -28,12 +28,12 @@ summary: 請使用下列連結、深入瞭解 Global File Cache 及其他 NetApp
 ** 請參閱所有 NetApp 產品的其他文件 https://www.netapp.com/support-and-training/documentation/["請按這裡"^]
 
 
-* 客戶可 Cloud Volumes ONTAP 透過下列管道、獲得支援支援使用支援功能支援功能支援：
+* 客戶可透過以下管道、取得使用 Cloud Volumes ONTAP 的 BlueXP 邊緣快取使用者支援：
 +
 ** 引導式問題解決、案例管理、知識庫、下載、工具、 還有更多 https://bluexp.netapp.com/gfc-support["請按這裡"^]
 ** 登入 NetApp 支援網址： https://mysupport.netapp.com[] 使用您的 NSS 認證
 ** 如需 P1 問題的立即協助、請致電： +1 856.481.3990 （選項 2 ）
 
 
-* 客戶可 Azure NetApp Files 透過供應商的標準支援、來支援使用 Cloud Volumes Services 和支援功能的全域檔案快取使用者。請分別聯絡 Google 客戶支援或 Microsoft 客戶支援。
+* 客戶支援 BlueXP 邊緣快取使用者利用雲端 Volume Services 和 Azure NetApp Files 、可透過供應商的標準支援取得。請分別聯絡 Google 客戶支援或 Microsoft 客戶支援。
 

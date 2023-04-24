@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, gfc, global file cache' 
-summary: 瞭解Global File Cache的新功能。 
+summary: 瞭解 BlueXP 邊緣快取的新功能。 
 ---
-= Global File Cache的新功能
+= BlueXP 邊緣快取的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 瞭解Global File Cache的新功能。
 
 
 [role="lead"]
-瞭解Global File Cache的新功能。
+瞭解 BlueXP 邊緣快取的新功能。
 
 
 

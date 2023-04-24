@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: fixed-issues.html 
 keywords: fixed issues, release notes, fixes, gfc, global file cache 
-summary: 請參閱「全域檔案快取」中已修正的問題。 
+summary: 瞭解 BlueXP 邊緣快取中已修正的問題。 
 ---
-= 修正全域檔案快取的問題
+= 已修正 BlueXP 邊緣快取的問題
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: 請參閱「全域檔案快取」中已修正的問題。
 
 
 [role="lead"]
-請參閱「全域檔案快取」中已修正的問題。
+瞭解 BlueXP 邊緣快取中已修正的問題。
 
 
 

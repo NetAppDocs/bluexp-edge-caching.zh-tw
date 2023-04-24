@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: download-gfc-resources.html 
 keywords: global file cache, edge 
-summary: 在遠端辦公室開始安裝 Global File Cache Edge 軟體之前、您需要注意許多需求。 
+summary: 在您開始在遠端辦公室安裝 BlueXP 邊緣快取 Edge 軟體之前、您需要注意許多需求。 
 ---
-= 開始部署全域檔案快取 Edge 執行個體之前
+= 開始部署 BlueXP Edge 快取 Edge 執行個體之前
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 在遠端辦公室開始安裝 Global File Cache Edge 軟體之前、�
 
 
 [role="lead"]
-在遠端辦公室開始安裝 Global File Cache Edge 軟體之前、您需要注意許多需求。
+在您開始在遠端辦公室安裝 BlueXP 邊緣快取 Edge 軟體之前、您需要注意許多需求。
 
 
 
 == 下載所需資源
 
-下載您計畫在分公司使用的通用檔案快取虛擬範本、軟體安裝套件及其他參考文件：
+下載您打算在分公司使用的 BlueXP 邊緣快取虛擬範本、軟體安裝套件及其他參考文件：
 
 * Windows Server 2016 虛擬範本：
 +
@@ -32,7 +32,7 @@ https://repo.cloudsync.netapp.com/gfc/2k16_GFC_2_2_0_41IMAGE.zip["Windows Server
 https://repo.cloudsync.netapp.com/gfc/2k19-2.1.zip["Windows Server 2019 .OVA （含 NetApp GFC ）（ VMware vSphere 6.5 以上）"^]
 https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_2_0_41IMAGE.zip["包括 NetApp GFC （ Microsoft Hyper-V ）在內的 Windows Server 2019 .VHDX"^]
 
-* 全域檔案快取 Edge 軟體：
+* BlueXP 邊緣快取邊緣軟體：
 +
 https://repo.cloudsync.netapp.com/gfc/GFC-2-2-0-41-Release.exe["NetApp GFC 軟體安裝套件（ .Exe ）"^]
 
@@ -46,50 +46,50 @@ https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Gui
 
 
 
-link:task-deploy-gfc-edge-instances.html#update-global-file-cache-edge-software["請遵循下列步驟"] 升級您的Global File Cache Edge軟體。
+連結： task-deploy-gFC-edge 執行個體 .html#update-bluexp-edge 快取邊緣軟體 [ 請依照下列步驟 ] 升級 BlueXP 邊緣快取邊緣軟體。
 
 
-NOTE: 在Windows Server 2016上部署全域檔案快取時、您應該使用.NET Framework 4.8和Windows WebView2架構。
-
-
-
-== 設計及部署 Global File Cache Edge
-
-視您的需求而定、您可能需要根據分公司的並行使用者工作階段來部署一或多個 Global File Cache Edge 執行個體。Edge 執行個體會將虛擬檔案共用呈現給分公司內的終端使用者、此共用區已從關聯的「全域檔案快取核心」執行個體透明地延伸。Global File Cache Edge 應包含一個「 D:\ 」 NTFS 磁碟區、其中包含分公司內的快取檔案。
-
-
-NOTE: 對於全域檔案快取 Edge 、請務必瞭解 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["規模調整準則"]。這將有助於您為全域檔案快取部署做出正確的設計。您也需要在規模、資源可用度和備援方面、判斷適合您環境的因素。
+NOTE: 在 Windows Server 2016 上部署 BlueXP 邊緣快取時、您應該使用 .NET Framework 4.8 和 Windows WebView2 架構。
 
 
 
-=== 全域檔案快取 Edge 執行個體
+== 設計與部署 BlueXP 邊緣快取邊緣
 
-部署全域檔案快取 Edge 執行個體時、您必須部署單一 VM 、方法是部署 Windows Server 2016 Standard 或 Datacenter Edition 、或部署 Windows Server 2019 Standard 或 Datacenter Edition 、或使用 Global File Cache 、 .OVA 或 .VHD 範本。 其中包括自選的 Windows Server 作業系統和全域檔案快取軟體。
+視您的需求而定、您可能需要根據分公司的並行使用者工作階段來部署一或多個 Edge 執行個體。Edge 執行個體會將虛擬檔案共用呈現給分公司內的終端使用者、並從相關的 BlueXP 邊緣快取核心執行個體透明延伸出來。BlueXP 邊緣快取邊緣應包含 `D:\` NTFS Volume 、其中包含分公司內的快取檔案。
+
+
+NOTE: 對於 BlueXP 邊緣快取邊緣、請務必瞭解 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["規模調整準則"]。這有助於您為 BlueXP 邊緣快取部署做出正確的設計。您也需要在規模、資源可用度和備援方面、判斷適合您環境的因素。
+
+
+
+=== BlueXP 邊緣快取 Edge 執行個體
+
+部署 BlueXP Edge 快取 Edge 執行個體時、您需要部署 Windows Server 2016 Standard 或 Datacenter Edition 、 Windows Server 2019 Standard 或 Datacenter Edition 、或使用邊緣快取來配置單一 VM `.OVA` 或 `.VHD` 範本、其中包括 Windows Server 自選作業系統和 BlueXP 邊緣快取軟體。
 
 
 
 ==== 快速步驟
 
-. 部署全域檔案快取虛擬範本、或 Windows Server 2016 VM 、或 Windows Server 2019 Standard 或 Datacenter 版本。
+. 部署 BlueXP 邊緣快取虛擬範本、或 Windows Server 2016 VM 、或 Windows Server 2019 Standard 或 Datacenter 版本。
 . 確認 VM 已連線至網路、已加入網域、並可透過 RDP 存取。
-. 安裝最新的 Global File Cache Edge 軟體。
-. 識別全域檔案快取管理伺服器和核心執行個體。
-. 設定全域檔案快取 Edge 執行個體。
+. 安裝最新的 BlueXP Edge 快取 Edge 軟體。
+. 識別 BlueXP 邊緣快取管理伺服器和核心執行個體。
+. 設定 BlueXP 邊緣快取 Edge 執行個體。
 
 
 
 
-== 全域檔案快取 Edge 需求
+== BlueXP 邊緣快取邊緣要求
 
-Global File Cache Edge 的設計可跨所有支援 Windows Server 2016 和 2019 的平台運作、為企業遠端辦公室及其他辦公室提供簡化的 IT 。重要的是、如果全球檔案快取符合幾項基礎層級需求、幾乎每個案例都能在現有的硬體基礎架構、虛擬化或混合 / 公有雲環境上部署。
+BlueXP 邊緣快取 Edge 的設計可在所有支援 Windows Server 2016 和 2019 的平台上運作、為企業遠端辦公室及其他地方提供簡化的 IT 。關鍵的是、如果 BlueXP 邊緣快取能夠在您現有的硬體基礎架構、虛擬化或混合式 / 公有雲環境中部署、幾乎每個環境都能滿足幾個基礎層級的需求。
 
-Global File Cache Edge 需要下列硬體與軟體資源才能發揮最佳功能。如需整體規模調整準則的詳細資訊、請參閱 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["規模調整準則"]。
+Edge 需要下列硬體和軟體資源才能發揮最佳功能。如需整體規模調整準則的詳細資訊、請參閱 link:concept-before-you-begin-to-deploy-gfc.html#sizing-guidelines["規模調整準則"]。
 
 
 
 === 強化的伺服器應用裝置
 
-全域檔案快取安裝套件會在任何 Microsoft Windows Server 執行個體上建立強化的軟體應用裝置。_ 不要解除安裝 _ 全域檔案快取套件。解除安裝「全域檔案快取」會影響伺服器執行個體的功能、可能需要完整重新建置伺服器執行個體。
+BlueXP 邊緣快取安裝套件可在任何 Microsoft Windows Server 執行個體上建立強化的軟體應用裝置。_ 請勿解除安裝 BlueXP 邊緣快取套件。解除安裝 BlueXP 邊緣快取會影響伺服器執行個體的功能、而且可能需要完整重新建置伺服器執行個體。
 
 
 
@@ -106,7 +106,7 @@ Global File Cache Edge 需要下列硬體與軟體資源才能發揮最佳功能
 
 === 虛擬部署需求
 
-Hypervisor 平台已知會從儲存子系統的觀點（例如延遲）而降低效能。若要使用全域檔案快取達到最佳效能、建議使用 SSD 的實體伺服器執行個體。
+Hypervisor 平台已知會從儲存子系統的觀點（例如延遲）而降低效能。為了使用 BlueXP 邊緣快取獲得最佳效能、建議使用具備 SSD 的實體伺服器執行個體。
 
 為了在虛擬環境中達到最佳效能、除了實體主機需求之外、還必須滿足下列需求和資源保留要求：
 
@@ -125,13 +125,13 @@ VMware vSphere 6.x 及更新版本：
 +
 ** 磁碟資源配置必須設為 * 完整資源配置的必要項目零位 * 。
 ** 硬碟共用必須設定為 * 高 * 。
-** 使用 vSphere Client 時、必須將 devices.hotplug* 設為 * 假 * 、以避免 Microsoft Windows 將全域檔案快取磁碟機顯示為可移除磁碟機。
+** devices.hotplug 必須使用 vSphere Client 設定為 * 錯誤 * 、才能防止 Microsoft Windows 將 BlueXP 邊緣快取磁碟機呈現為卸除式磁碟機。
 
 
 * 網路：網路介面必須設定為* VMXNET3*（可能需要VM工具）。
 
 
-全域檔案快取可在 Windows Server 2016 和 2019 上執行、因此虛擬化平台需要支援作業系統、並與公用程式整合、以提升 VM 客體作業系統的效能及 VM 管理（例如 VM Tools ）。
+Edge 可在 Windows Server 2016 和 2019 上執行、因此虛擬化平台必須支援作業系統、並與公用程式整合、以提升 VM 客體作業系統的效能、以及 VM 工具等 VM 管理。
 
 
 
@@ -155,18 +155,18 @@ VMware vSphere 6.x 及更新版本：
 
 === 網路
 
-* 防火牆：應該允許在「全域檔案快取邊緣」與「管理伺服器」與「核心執行個體」之間使用 TCP 連接埠。
+* 防火牆： BlueXP 邊緣快取 Edge 和 Management Server 與 Core 執行個體之間應允許 TCP 連接埠。
 +
-全域檔案快取 TCP 連接埠： 443 （ HTTPS - LMS ）、 6618-6630 。
+BlueXP 邊緣快取 TCP 連接埠： 443 （ HTTPS - LMS ）、 6618-6630 。
 
-* 網路最佳化裝置（例如 Riverbed Steelhead ）必須設定為傳遞全域檔案快取特定連接埠（ TCP 6618-6630 ）。
+* 網路最佳化裝置（例如 Riverbed Steelhead ）必須設定為通過 BlueXP 邊緣快取特定連接埠（ TCP 6618-6630 ）。
 
 
 
 
 === 用戶端工作站與應用程式最佳實務做法
 
-Global File Cache 可透明整合至客戶的環境、讓使用者能夠使用用戶端工作站存取集中式資料、並執行企業應用程式。使用「全域檔案快取」、資料可透過直接磁碟機對應或透過 DFS命名 空間存取。如需 Global File Cache Fabric 、智慧型檔案快取及軟體主要方面的詳細資訊、請參閱 link:concept-before-you-begin-to-deploy-gfc.html["開始部署全域檔案快取之前"^] 區段。
+BlueXP 邊緣快取可透明整合至客戶環境、讓使用者能夠使用用戶端工作站存取集中式資料、並執行企業應用程式。使用 BlueXP 邊緣快取時、資料會透過直接磁碟機對應或 DFS 命名空間來存取。如需 BlueXP 邊際快取 Fabric 、智慧型檔案快取及軟體關鍵層面的詳細資訊、請參閱 link:concept-before-you-begin-to-deploy-gfc.html["開始部署 BlueXP 邊緣快取之前"^] 區段。
 
 為確保最佳體驗與效能、請務必遵守《全球檔案快取使用指南》中所述的 Microsoft Windows 用戶端要求與最佳實務做法。這適用於所有版本的 Microsoft Windows 。
 
@@ -176,9 +176,9 @@ Global File Cache 可透明整合至客戶的環境、讓使用者能夠使用�
 
 === 防火牆與防毒最佳實務做法
 
-雖然 Global File Cache 盡合理努力驗證最常見的防毒應用程式套件是否與 Global File Cache 相容、但 NetApp 無法保證這些程式所造成的任何不相容或效能問題、或是相關的更新、 Service Pack 或修改、也不承擔任何責任。
+雖然 BlueXP 邊緣快取會合理地驗證最常見的防毒應用程式套件是否與 Global File Cache 相容、但對於這些程式、或其相關更新、 Service Pack 或修改所造成的任何不相容或效能問題、 NetApp 無法保證也不承擔任何責任。
 
-全域檔案快取不建議在任何啟用全域檔案快取的執行個體（核心或邊緣）上安裝或應用監控或防毒解決方案。如果是依選擇或原則安裝解決方案、則必須套用下列最佳實務做法和建議。如需一般防毒套件、請參閱中的附錄 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
+NetApp 不建議在任何啟用 BlueXP 邊緣快取的執行個體（ Core 或 Edge ）上安裝或應用監控或防毒解決方案。如果是依選擇或原則安裝解決方案、則必須套用下列最佳實務做法和建議。如需一般防毒套件、請參閱中的附錄 A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]。
 
 
 
@@ -187,24 +187,24 @@ Global File Cache 可透明整合至客戶的環境、讓使用者能夠使用�
 * Microsoft 防火牆：
 +
 ** 保留防火牆設定為預設值。
-** 建議：將 Microsoft 防火牆設定和服務保留為預設設定為「 Off 」、而非針對標準「 Global File Cache Edge 執行個體」啟動。
+** 建議：將 Microsoft 防火牆設定和服務保留為預設的「關」設定、而非標準 BlueXP 邊緣快取 Edge 執行個體的「未啟動」設定。
 ** 建議：將 Microsoft 防火牆設定和服務保留為預設設定為「 On 」（開啟）、並針對同時執行網域控制器角色的 Edge 執行個體啟動。
 
 
 * 企業防火牆：
 +
-** 全域檔案快取核心執行個體會在 TCP 連接埠 6618-6630 上接聽、確保全域檔案快取 Edge 執行個體可以連線到這些 TCP 連接埠。
-** 全域檔案快取執行個體需要透過 TCP 連接埠 443 （ HTTPS ）與全域檔案快取管理伺服器通訊。
+** BlueXP 邊緣快取核心執行個體會偵聽 TCP 連接埠 6618-6630 、確保 BlueXP 邊緣快取 Edge 執行個體可以連線到這些 TCP 連接埠。
+** BlueXP 邊緣快取執行個體需要透過 TCP 連接埠 443 （ HTTPS ）與 BlueXP 邊緣快取管理伺服器進行通訊。
 
 
-* 網路最佳化解決方案 / 裝置必須設定為傳遞全域檔案快取特定連接埠。
+* 網路最佳化解決方案 / 裝置必須設定為通過 BlueXP 邊緣快取特定連接埠。
 
 
 
 
 === 防毒最佳實務做法
 
-本節可協助您瞭解在執行全域檔案快取的 Windows Server 執行個體上執行防毒軟體時的需求。Global File Cache已測試最常用的防毒產品、包括Cylinance、McAfee、Symantec、Sophos、趨勢Micro、 卡巴斯基、群眾攻擊、Cisco AMP、Tannium和Windows Defender、可搭配全域檔案快取一起使用。防毒軟體應通過NetApp認證、且僅在設定適當的排除清單時才受支援。請參閱中的附錄A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
+NetApp 已測試最常用的防毒產品、包括 Cylinance 、 McAfee 、 Symantec 、 Sophos 、 Trend Micro 、 卡巴斯基、群眾攻擊、 Cisco AMP 、 Tannium 和 Windows Defender 、可搭配 BlueXP 邊緣快取使用。防毒軟體應通過NetApp認證、且僅在設定適當的排除清單時才受支援。請參閱中的附錄A https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["NetApp 全球檔案快取使用者指南"^]
 
 
 NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造成 10-20% 的影響。
@@ -217,7 +217,7 @@ NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造�
 
 防毒軟體或其他協力廠商索引或掃描公用程式、絕對不能掃描 Edge 執行個體上的磁碟機 D:\ 。這些 Edge Server 磁碟機 D ： \ 的掃描結果會導致對整個快取命名空間提出許多檔案開啟要求。這將導致透過 WAN 擷取檔案、並將檔案擷取至資料中心正在最佳化的所有檔案伺服器。Edge 執行個體會發生 WAN 連線氾濫和不必要的負載、導致效能降低。
 
-除了 D:\ 磁碟機之外、下列全域檔案快取目錄和程序一般應排除在所有防毒應用程式之外：
+除了 D:\ 磁碟機外、下列 BlueXP 邊緣快取目錄和程序通常應排除在所有防毒應用程式之外：
 
 * 「 C ： \Program Files\TalonFAST\ 」
 * 「 C:\Program Files\TalonFAST\Bin \LMClientService.exe 」
@@ -244,29 +244,29 @@ NOTE: 將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造�
 
 == NetApp 支援政策
 
-全域檔案快取執行個體是專為全域檔案快取所設計、做為在 Windows Server 2016 和 2019 平台上執行的主要應用程式。全域檔案快取需要優先存取平台資源、例如磁碟、記憶體、網路介面、 並可能對這些資源提出高需求。虛擬部署需要記憶體 /CPU 保留和高效能磁碟。
+BlueXP 邊緣快取執行個體是專為在 Windows Server 2016 和 2019 平台上執行的主要應用程式所設計。BlueXP 邊緣快取需要優先存取平台資源、例如磁碟、記憶體、網路介面、 而且可以對這些資源提出高需求。虛擬部署需要記憶體 /CPU 保留和高效能磁碟。
 
-* 對於部署 Global File Cache 的分公司、執行 Global File Cache 之伺服器上支援的服務和應用程式僅限於：
+* 對於分公司部署、執行 BlueXP 邊緣快取的伺服器上支援的服務和應用程式僅限於：
 +
 ** DNS/DHCP
-** Active Directory 網域控制器（全域檔案快取必須位於不同的磁碟區）
+** Active Directory 網域控制器（ BlueXP 邊緣快取必須位於不同的磁碟區）
 ** 列印服務
 ** Microsoft System Center 組態管理程式（ Software ）
-** 全域檔案快取核准的用戶端系統代理程式和防毒應用程式
+** BlueXP 邊緣快取已核准的用戶端系統代理程式和防毒應用程式
 
 
-* NetApp 支援與維護僅適用於全域檔案快取。
+* NetApp 支援與維護僅適用於 BlueXP 邊緣快取。
 * 業務單位生產力軟體、通常需要大量資源、例如資料庫伺服器、郵件伺服器等。 不受支援。
-* 客戶負責安裝在執行全域檔案快取之伺服器上的任何非全域檔案快取軟體：
+* 客戶必須負責任何非 BlueXP 邊緣快取軟體、這些軟體可能安裝在執行 BlueXP 邊緣快取的伺服器上：
 +
-** 如果任何第三方軟體套件導致軟體或資源與 Global File Cache 衝突、或效能受損、則 Global File Cache 的支援組織可能會要求客戶停用或移除執行 Global File Cache 的伺服器上的軟體。
-** 客戶應負責安裝、整合、支援及升級新增至執行 Global File Cache 應用程式之伺服器的任何軟體。
+** 如果任何第三方軟體套件導致軟體或資源與 BlueXP 邊緣快取衝突、或是效能受損、 NetApp 支援組織可能會要求客戶停用或移除執行 BlueXP 邊緣快取的伺服器上的軟體。
+** 客戶應負責安裝、整合、支援及升級任何新增至執行 BlueXP 邊緣快取應用程式之伺服器的軟體。
 
 
-* 防毒工具和授權代理程式等系統管理公用程式 / 代理程式可能會共存。不過、除了上述支援的服務和應用程式、這些應用程式不受 Global File Cache 支援、而且仍必須遵循上述相同的準則：
+* 防毒工具和授權代理程式等系統管理公用程式 / 代理程式可能會共存。不過、除了上述所列的支援服務和應用程式、 BlueXP 邊緣快取不支援這些應用程式、而且仍必須遵循與上述相同的準則：
 +
 ** 客戶必須負責所有安裝、整合、支援及升級新增的軟體。
-** 如果客戶確實安裝任何第三方軟體套件、導致或懷疑導致軟體或資源與 Global File Cache 衝突、或是效能受損、則 Global File Cache 的支援組織可能需要停用 / 移除軟體。
+** 如果客戶確實安裝任何第三方軟體套件、導致或懷疑導致軟體或資源與 BlueXP 邊緣快取或效能衝突、 BlueXP 邊緣快取的支援組織可能會要求停用 / 移除軟體。
 
 
 

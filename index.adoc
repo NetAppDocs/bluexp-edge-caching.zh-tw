@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: 'Enable real-time global file sharing for your distributed workforce by using NetApp"s intelligent Global File Cache.' 
-summary: 使用 NetApp 的智慧型全域檔案快取、為分散的員工提供即時的全域檔案共用功能。 
+lead: BlueXP edge caching lets you create a centralized file store that serves remote locations around the globe. With edge caching, frequently accessed data is maintained in each of the associated remote edge locations and can be accessed without the latency involved with accessing data over WAN, while remaining under central control. 
+summary: BlueXP 邊緣快取可讓您建立集中式檔案存放區、為全球各地的遠端位置提供服務。使用邊緣快取時、經常存取的資料會保留在每個相關遠端邊緣位置、而且存取時不會因透過 WAN 存取資料而產生延遲、同時仍處於中央控制之下。 
 ---
-= 全域檔案快取文件
+= BlueXP 邊緣快取文件
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
