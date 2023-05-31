@@ -22,7 +22,6 @@
   <block id="981640f9fb09fe09a937c7da955d9dfb" category="list-text">Active Directory 網域名稱、名稱伺服器 IP 位址、 Active Directory 管理認證。</block>
   <block id="794cb058ebafe2e7b0df56dea2e389d4" category="list-text">您要建立的磁碟區名稱和大小、要建立磁碟區的集合體名稱、以及共用名稱。</block>
   <block id="5a546cf8c7438d3947e0f034bfe5f5af" category="inline-link">管理現有的集合體</block>
-  <block id="03120f4ae41820e46fabced95a93dbb5" category="paragraph">我們建議磁碟區的大小足以容納應用程式的總資料集、並能隨著資料集的成長而隨之擴充。如果工作環境中有多個集合體、請參閱<block ref="acc2071beb330a8d456d30e0940aedbc" category="inline-link-rx"></block> 以判斷哪些 Aggregate 具有最大的可用空間、以供新磁碟區使用。</block>
   <block id="2a14e1d9fe1117503124653da7bc0c2e" category="list-text">執行個體的唯一（地理） NetBios 名稱（例如 GFC-cor1 ）</block>
   <block id="012be1a704679516268472af83c3224d" category="list-text">Active Directory 網域名稱</block>
   <block id="36f55accbc89c027e3d1b77aa8958616" category="list-text">已配置的服務帳戶必須是網域使用者。</block>
@@ -231,7 +230,6 @@
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">業務單位生產力軟體、通常需要大量資源、例如資料庫伺服器、郵件伺服器等。 不受支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">按一下「*」「nss管理」&gt;「新增nssAccount」*。</block>
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">出現提示時、按一下*繼續*以重新導向至Microsoft登入頁面。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
@@ -289,7 +287,6 @@
   <block id="c2a4e35926866a1322a751f57a7f847a" category="list-text">Tum的記錄基礎架構已更新、可擴充性更高、效能更高。</block>
   <block id="959915525ca7f68401340816fbc38d13" category="list-text">授權管理員伺服器服務（LMS）、授權管理員用戶端服務（LMC）和預先配置服務（TappN）的服務開始類型、會從「自動延遲」變更為「自動」。</block>
   <block id="8334797b9b3383d4f48d98178b8845ea" category="inline-link">本頁</block>
-  <block id="538b3d7be12bcc1f18433981df773bc1" category="paragraph">1.3.0版的Global File Cache Edge軟體可從取得<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
   <block id="9463b6d7b9d38e544c6a7eb98988bb3b" category="section-title">新的中繼資料邊緣同步功能</block>
   <block id="2e0922ffb3ae1ae6ac16997e734d5154" category="paragraph">此「中繼資料邊緣同步」功能使用Edge同步功能做為核心架構。只有中繼資料資訊會更新所有已訂閱的Edge、而且檔案/資料夾會在Edge機器上建立。</block>
   <block id="2273c570a2dcacbb1c4bb77abccca54b" category="section-title">License Manager服務增強功能</block>
@@ -312,7 +309,6 @@
   <block id="40ede24da7e93db6d61cd94c084008e7" category="section-title">全新的容量型授權模式、透過Azure Marketplace提供全域檔案快取功能</block>
   <block id="70dc5565ba7814d08bd68476e5fb76ff" category="paragraph">新的「Edge Cache」授權與「CVO Professional」授權具有相同的功能、但也支援全域檔案快取。在Cloud Volumes ONTAP Azure中部署全新的功能完善的更新版時、您會看到這個選項。您有權在Cloud Volumes ONTAP 整個作業系統上、為3個已配置容量的TiB部署一個Global File Cache Edge系統。至少應配置30個TiB。GFC授權管理程式服務已經過強化、可提供容量型授權。</block>
   <block id="6a749e3d1bafd02cdf9a303ba6375e66" category="inline-link">深入瞭解Edge Cache授權套件。</block>
-  <block id="0d8fd49fcb5c25122324fcb59637aff8" category="paragraph"><block ref="0d8fd49fcb5c25122324fcb59637aff8" category="inline-link-rx"></block></block>
   <block id="b7b58b4424e766ec66e0ab4ea9c812b8" category="section-title">全域檔案快取現在已整合Cloud Insights 至功能性</block>
   <block id="902eaec7802b7e6292febf1b6526a6b5" category="inline-link">深入瞭Cloud Insights 解功能。</block>
   <block id="6d7b1d6577d8e6bfc5f78e821377a7d4" category="paragraph"><block ref="6d7b1d6577d8e6bfc5f78e821377a7d4" category="inline-link-rx"></block></block>
@@ -336,7 +332,6 @@
   <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">現有的客戶、擁有一個新服務客戶帳戶</block>
   <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">在*資源*頁面上、按一下*註冊以取得支援*。</block>
   <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">顯示帳戶序號和「Register for Support」（註冊支援）選項的快照</block>
-  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">現有客戶、但無NSS.帳戶</block>
   <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">如果您是現有的NetApp客戶、擁有現有授權和序號、但_否_ nss_帳戶、您只需要建立一個nss.帳戶。</block>
   <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">《使用者登錄表》NetApp 支援網站</block>
@@ -344,7 +339,6 @@
   <block id="d61c9f72493817776f392db42ac446a2" category="list-text">請務必選擇適當的使用者層級、通常為* NetApp客戶/終端使用者*。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新推出</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客戶、而且您沒有新的NSS帳戶、請依照下列每個步驟操作。</block>
-  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支援註冊網站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">瀏覽至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 並選擇*我不是NetApp註冊客戶*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填寫必填欄位（紅色星號）。</block>
@@ -363,7 +357,6 @@
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
   <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
-  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
   <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
@@ -382,7 +375,6 @@
   <block id="2ef92b78d697de97a16de7ae1849aeb8" category="list-text">修正GFC CI Agent用戶端服務中的次要錯誤。</block>
   <block id="8460b630b603901ff605873a4c5d90e2" category="list-text">'C:\Program Files\TalonFAST\Bin \GfcCIAgent Service.exe'</block>
   <block id="bca1fbce4a3bdcddfdb1aa5bb1b5f6da" category="paragraph">在Azure中、此功能可在具有127 GB標準SSD的D2S_V3或同等（2個vCPU / 8 GB RAM）VM上執行</block>
-  <block id="19df80e08f82de8a5a9df23c1e7c6b96" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="51d465a61bb0f252b570a31acdf628be" category="section-title">全域檔案快取現在可搭配任意數量的授權使用</block>
   <block id="c4579941f945f9c013bc5d2b34483751" category="paragraph">先前的10份授權（即30 TB儲存容量）最低需求已移除。每3 TB儲存空間將會核發一份全域檔案快取授權。</block>
   <block id="a05df94e25a3fdf3c6809915be7db21b" category="section-title">已新增使用離線授權管理伺服器的支援</block>
@@ -394,7 +386,6 @@
   <block id="a82f8775c45fb832c573ea5925281014" category="list-text">全域檔案快取儀表板Cloud Insights 、提供下列功能：</block>
   <block id="79970e54ed0f206381160ddc9c16ebfb" category="inline-link">NetApp GFC Cloud Insights 的功能不一（.ZIP）</block>
   <block id="161bce40034252bf3bd18e8b63136e82" category="paragraph"><block ref="161bce40034252bf3bd18e8b63136e82" category="inline-link-rx"></block></block>
-  <block id="6ad27e169d4768e9a46a134513c55556" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="2c81bb98c990e9738e500d000082628f" category="inline-link-rx"></block>。</block>
   <block id="c0e3f3bf15a62c059b94a8ed402b05a1" category="section-title">Edge執行個體可支援其他並行使用者</block>
   <block id="dac6d17442feba1d57f29d8031c05963" category="paragraph">單一Global File Cache Edge執行個體可為每個專屬的實體Edge執行個體提供最多500位使用者的服務、以及最多300位使用者的專屬虛擬部署服務。使用者人數上限分別為400和200。</block>
   <block id="cf7c224c7b8d702f6384270dadb22ca0" category="paragraph">NetApp Cloud Insights 產品（CI）可讓您完整掌握基礎架構與應用程式。現在、全域檔案快取已與CI整合、提供所有邊緣和核心的完整可見度；監控執行個體上執行的程序。將各種「全域檔案快取」指標推送至CI、以提供CI儀表板的完整總覽。請參閱的第11章<block ref="2cde0a8e9bca45f9b9d7b53c9b2941a5" category="inline-link-rx"></block></block>
@@ -427,7 +418,6 @@
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
   <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">此錯誤可能表示、與該帳戶相關聯的NSS帳戶及記錄公司與BlueXP帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
-  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必須是後端檔案伺服器內建Backup Operators群組的成員（透過BlueXP部署時會自動啟用此功能）。</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
@@ -449,11 +439,8 @@
   <block id="0375f4855be072c7d856a0233cc21de9" category="section-title">支援雲端供應商解決方案</block>
   <block id="be845c219bb74b14349ffa6e27e7aef3" category="paragraph">如需您已整合至BlueXP的下列雲端供應商解決方案的技術支援、請參閱該產品的藍圖XP文件中的「取得協助」。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
-  <block id="5bf5309465f91318228a7f956b826348" category="list-text"><block ref="5bf5309465f91318228a7f956b826348" category="inline-link-macro-rx"></block></block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="0e2bc9c853e0af52ead12823c025e58b" category="list-text"><block ref="0e2bc9c853e0af52ead12823c025e58b" category="inline-link-macro-rx"></block></block>
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
-  <block id="02efcbea18b9485a78a41871dce1e64d" category="list-text"><block ref="02efcbea18b9485a78a41871dce1e64d" category="inline-link-macro-rx"></block></block>
   <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">使用自我支援選項</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">利用NetApp支援建立案例</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">在「*資源*」頁面上、選擇「技術支援」下的其中一個可用選項：</block>
@@ -476,28 +463,20 @@
   <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">在*組織案例*下、按一下*檢視*以檢視與貴公司相關的所有案例。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">選擇確切的日期範圍或選擇不同的時間範圍、以修改日期範圍。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">案例管理頁面上方表格上方選項的快照、可讓您選擇確切的日期範圍或過去7天、30天或3個月。</block>
-  <block id="7fcba8aeefa9960d3fc3fa08b360ba2e" category="paragraph"><block ref="7fcba8aeefa9960d3fc3fa08b360ba2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">篩選欄的內容。</block>
   <block id="3753f10a59e21f58b30e3e67d416453e" category="inline-image-macro">「狀態」欄中篩選選項的快照、可讓您篩選出符合特定狀態（例如「作用中」或「已關閉」）的個案。</block>
-  <block id="37709be3a43df07d5975287545d0ba12" category="paragraph"><block ref="37709be3a43df07d5975287545d0ba12" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">出現在表格中的加號圖示</block>
-  <block id="1614dc8e47c0492434152c990d6c1040" category="list-text">按一下以變更表格中顯示的欄 <block ref="effeab06130cddc8360822b2b706805b" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="370b44009f1b82d0b6b178bb80cc62fa" category="inline-image-macro">顯示可在表格中顯示之欄的快照。</block>
-  <block id="5de408d7cbad49634fb25f9047498132" category="paragraph"><block ref="5de408d7cbad49634fb25f9047498132" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">表格最後一欄中出現三個點的圖示</block>
-  <block id="98efef1c8a47ed5791b41944e8ff4ec2" category="list-text">按一下即可管理現有案例 <block ref="a0b152b50a56901a75affebabc26ed61" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*檢視案例*：檢視特定案例的完整詳細資料。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
   <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*結案案例*：提供結案原因的詳細資料、然後按一下*結案案例*。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">螢幕擷取畫面、顯示您在表格最後一欄選取功能表後可以採取的動作。</block>
-  <block id="e9a5c374fb47ed2ae5cc6108fb36d829" category="paragraph"><block ref="e9a5c374fb47ed2ae5cc6108fb36d829" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS-帳戶必須是客戶層級的帳戶（而非來賓帳戶或暫存帳戶）。您可以擁有多個客戶層級的NSS帳戶。</block>
   <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">如果該帳戶是合作夥伴層級帳戶、則只能有一個NSS帳戶。如果您嘗試新增客戶層級的NSS帳戶、但有合作夥伴層級的帳戶存在、您會收到下列錯誤訊息：</block>
   <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">「此帳戶不允許使用新增服務客戶類型、因為已經有不同類型的新增服務使用者。」</block>
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您擁有預先存在的客戶層級的NSS帳戶、並嘗試新增合作夥伴層級的帳戶、情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
-  <block id="452cd4df7b0d5eb1156519a2f3b0206b" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
-  <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud 中的 Cloud Volumes ONTAP</block>
   <block id="3dcadf3bb59f115f566e304bb89d2481" category="paragraph">請參閱<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 以取得詳細資料。</block>
@@ -528,12 +507,9 @@
   <block id="e0feab0ee26165da9cddab198d1f1422" category="section-title">2023 年 4 月 5 日（ 2.2 版）</block>
   <block id="b1bdb4b30cdf01fdd4fc306c24b3e449" category="section-title">在部署於 Google Cloud 的 Cloud Volumes ONTAP 系統上支援 Global File Cache</block>
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
-  <block id="3a8f1f533494279acf2d044c11cf495a" category="paragraph"><block ref="3a8f1f533494279acf2d044c11cf495a" category="inline-link-rx"></block></block>
   <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄</block>
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">增強的 Optimus PSM 可設定 Edge Sync 功能</block>
-  <block id="2991218cb9240c85cc1b72c630327e36" category="paragraph">此版本可修正中所述的問題<block ref="11a0d6c8cafa0c0950060c707371e2a0" category="inline-link-rx"></block>。</block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在Cloud Volumes ONTAP Google Cloud上啟動</block>
-  <block id="2b73cde380b325cb0d7cd3d8076023ae" category="paragraph">部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>或<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block>。</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
   <block id="5513c31a1ae4ca4e61f2d6da378db64a" category="paragraph">請參閱的第14章<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block> 以取得其他資料。</block>
   <block id="8b2ab5f7a66955724c809328b3ba02c7" category="paragraph">如需 Global File Cache Edge 進階組態的詳細資訊、請參閱<block ref="16f037677ba4ac06616103e429c60f34" category="inline-link-rx"></block>。</block>
@@ -606,7 +582,6 @@
   <block id="da63fa9bb21eb25f5f57f093c864f2e2" category="list-text">BlueXP 邊緣快取管理伺服器：</block>
   <block id="2f0a1e2943548b4d2c575728fff09264" category="list-text">BlueXP 邊緣快取核心：</block>
   <block id="07fb1269841f7291dfbea77bd07f01c9" category="list-text">對於 Cloud Volumes ONTAP 系統、您每年可為每個 BlueXP 邊緣快取邊緣執行個體支付 3 、 000 美元。</block>
-  <block id="79cfd0467a2c3cce9c27dc88c6f2b9c2" category="list-text">或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一 BlueXP 邊緣快取 Edge 執行個體。<block ref="60136c2b0ea733a67f6c719e0fbaea2e" category="inline-link-rx"></block>。</block>
   <block id="7d78fe64ccb6332f6ee84a1d7a54e2cd" category="list-text">使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> 或洽詢 NetApp 解決方案工程師、以討論企業部署的最佳選項。</block>
   <block id="54ec0cdb19cb605eacd486e1e3eae2e4" category="paragraph">BlueXP 邊緣快取包含軟體型授權管理伺服器（ LMS ）、可讓您使用自動化機制、整合授權管理、並將授權部署至所有 Core 和 Edge 執行個體。</block>
   <block id="6c7f33700ec1daf2a7db9d9ef1a1b6d8" category="paragraph">BlueXP 支援的 BlueXP 邊緣快取版本（ Cloud Volumes Edge Cache ）要求作為中央儲存設備的後端儲存平台必須是在 Azure 、 AWS 或 Google Cloud 中部署 Cloud Volumes ONTAP 單一節點或 HA 配對的工作環境。</block>
@@ -678,7 +653,6 @@
   <block id="d04885a778b925accc9afb2408cffc16" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 部署 BlueXP 邊緣快取 Edge 執行個體</block>
   <block id="a3478e6d52ae4f0ad63d093777515615" category="inline-link-macro">部署 BlueXP 邊緣快取 Edge 執行個體</block>
   <block id="72618ee12aaa89a8ff8190e4cfaebf76" category="paragraph">請參閱 <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> 在每個遠端位置部署 BlueXP 邊緣快取 Edge 執行個體。此步驟並未使用BlueXP完成。</block>
-  <block id="3919b01d29c5218479fcbb29fbcdf267" category="paragraph">BlueXP 邊緣快取支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱<block ref="e515c0e95325e358a799acebafdf6235" category="inline-link-rx"></block>、<block ref="497bfdbba9caf2f6a6f7d799eda40dc3" category="inline-link-rx"></block>或<block ref="f61ed94059894a24c9302a926017e32c" category="inline-link-rx"></block></block>
   <block id="370b94610a07d4acffd09200c2a83123" category="paragraph">請注意下列其他 BlueXP 邊緣快取需求：</block>
   <block id="7c91a8c26657bad5dc6f80e7c67c912e" category="paragraph">如果在執行個體上未設定 SMB 檔案共用、則會在安裝 BlueXP 邊緣快取元件期間提示您設定 SMB 共用。</block>
   <block id="46142bb722729a4171bd2579b394eb8a" category="section-title">在您的工作環境中啟用 BlueXP 邊緣快取</block>
@@ -755,4 +729,30 @@
   <block id="a9d0b37e45f41dd1d52ab5a771557b0b" category="sidebar">部署 BlueXP 邊緣快取邊緣</block>
   <block id="df1f69fe50ad765ccb959276db879f1f" category="sidebar">使用 BlueXP 邊緣快取</block>
   <block id="1b16252715ee63d29e9c78d78a69c523" category="sidebar">部署 BlueXP 邊緣快取管理伺服器和核心</block>
+  <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
+  <block id="91ea063dfcaf2cbae3a931cc1d0a28a8" category="paragraph">我們建議磁碟區的大小足以容納應用程式的總資料集、並能隨著資料集的成長而隨之擴充。如果工作環境中有多個集合體、請參閱<block ref="89800d58631629b790a13a9de7981f0e" category="inline-link-rx"></block> 以判斷哪些 Aggregate 具有最大的可用空間、以供新磁碟區使用。</block>
+  <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
+  <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
+  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
+  <block id="1bb5620ed3998fd776980cad36e22c9a" category="paragraph"><block ref="1bb5620ed3998fd776980cad36e22c9a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>。</block>
+  <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXP 邊緣快取支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
+  <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一 BlueXP 邊緣快取 Edge 執行個體。<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>。</block>
+  <block id="10dc1eee3d75610cc244de50455508d3" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。如需更新的軟體套件、請參閱<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
+  <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
+  <block id="f5f78956220294d550567ec883fe45c6" category="paragraph"><block ref="f5f78956220294d550567ec883fe45c6" category="inline-link-rx"></block></block>
+  <block id="2466aaf1d1f57cfbe736e835f936a857" category="paragraph">此版本可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
+  <block id="83a5e35b6b359abe6f4e440efbdffd38" category="paragraph">1.3.0版的Global File Cache Edge軟體可從取得<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">按一下以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
+  <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">按一下即可管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
+  <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

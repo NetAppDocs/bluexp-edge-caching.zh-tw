@@ -143,7 +143,7 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上 BlueXP 邊緣快取元件
 * 與 Cloud Volumes ONTAP 一起安裝（透過 BlueXP 完全部署支援的組態）時、有兩種定價選項：
 +
 ** 對於 Cloud Volumes ONTAP 系統、您每年可為每個 BlueXP 邊緣快取邊緣執行個體支付 3 、 000 美元。
-** 或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一 BlueXP 邊緣快取 Edge 執行個體。 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["如需詳細資訊、請參閱此處"^]。
+** 或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一 BlueXP 邊緣快取 Edge 執行個體。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#capacity-based-licensing["如需詳細資訊、請參閱此處"^]。
 
 
 * 使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱 https://bluexp.netapp.com/global-file-cache/roi["計算您的節約潛力"^] 或洽詢 NetApp 解決方案工程師、以討論企業部署的最佳選項。

@@ -89,7 +89,7 @@ BlueXP 邊緣快取 Edge 先決條件說明如下： link:download-gfFC-edues.ht
 * 您要建立的磁碟區名稱和大小、要建立磁碟區的集合體名稱、以及共用名稱。
 
 
-我們建議磁碟區的大小足以容納應用程式的總資料集、並能隨著資料集的成長而隨之擴充。如果工作環境中有多個集合體、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-manage-aggregates.html["管理現有的集合體"^] 以判斷哪些 Aggregate 具有最大的可用空間、以供新磁碟區使用。
+我們建議磁碟區的大小足以容納應用程式的總資料集、並能隨著資料集的成長而隨之擴充。如果工作環境中有多個集合體、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-aggregates.html["管理現有的集合體"^] 以判斷哪些 Aggregate 具有最大的可用空間、以供新磁碟區使用。
 
 
 

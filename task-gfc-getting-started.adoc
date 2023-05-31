@@ -32,7 +32,7 @@ summary: 您可以使用 BlueXP 在工作環境中部署 BlueXP 邊緣快取管�
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["一"] 部署 Cloud Volumes ONTAP
 [role="quick-margin-para"]
-部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]。
+部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]。
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["二"] 部署 BlueXP 邊緣快取管理伺服器
 [role="quick-margin-para"]
@@ -54,7 +54,7 @@ summary: 您可以使用 BlueXP 在工作環境中部署 BlueXP 邊緣快取管�
 
 === 部署 Cloud Volumes ONTAP 作為您的儲存平台
 
-BlueXP 邊緣快取支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
+BlueXP 邊緣快取支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-azure.html["在 Cloud Volumes ONTAP Azure 中啟動"^]、 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-otc-aws.html["在 Cloud Volumes ONTAP AWS 中啟動"^]或 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["在Cloud Volumes ONTAP Google Cloud上啟動"^]
 
 請注意下列其他 BlueXP 邊緣快取需求：
 
