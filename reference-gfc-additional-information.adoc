@@ -21,7 +21,7 @@ summary: 請使用下列連結深入瞭解 BlueXP 邊緣快取和其他 NetApp �
 ** 請參閱常見問題集與解答清單 https://bluexp.netapp.com/global-file-cache-faq["請按這裡"^]
 
 
-* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.2.0%20User%20Guide.pdf["全域檔案快取使用者指南"^]
+* https://repo.cloudsync.netapp.com/gfc/Global%20File%20Cache%202.3.0%20User%20Guide.pdf["全域檔案快取使用者指南"^]
 * NetApp 產品文件
 +
 ** 請參閱 NetApp 雲端產品的其他文件 https://docs.netapp.com/us-en/cloud/["請按這裡"^]
