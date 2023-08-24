@@ -95,8 +95,8 @@ BlueXP 邊緣快取安裝套件可在任何 Microsoft Windows Server 執行個�
 
 === 實體硬體需求
 
-* 至少 4 個 CPU 核心
-* 至少 16 GB RAM
+* 至少 8 個 CPU 核心
+* 最低 32 GB RAM
 * 專用的單一或備援 1 Gbps NIC
 * 10K RPM SAS HDD 或 SSD （首選）
 * 啟用回寫快取功能的 RAID 控制器
@@ -112,15 +112,15 @@ Hypervisor 平台已知會從儲存子系統的觀點（例如延遲）而降低
 
 Microsoft Hyper-V 2012 R2 及更新版本：
 
-* 處理器（ CPU ）： CPU 必須設為 * 靜態 * ：至少 4 個 vCPU 核心。
-* 記憶體（ RAM ）：最低： 16 GB 設為 * 靜態 * 。
+* 處理器（ CPU ）： CPU 必須設為 * 靜態 * ：至少 8 個 vCPU 核心。
+* 記憶體（ RAM ）：最低： 32 GB 設為 * 靜態 * 。
 * 硬碟資源配置：硬碟必須設定為 * 固定式磁碟 * 。
 
 
 VMware vSphere 6.x 及更新版本：
 
-* 處理器（ CPU ）：必須設定 CPU 週期保留。最低： 4 個 vCPU 核心 @ 10000 MHz 。
-* 記憶體（ RAM ）：最低：保留 16 GB 。
+* 處理器（ CPU ）：必須設定 CPU 週期保留。最低： 8 個 VCPU 核心 @ 10000 MHz 。
+* 記憶體（ RAM ）：最低：保留容量為 32 GB 。
 * 硬碟資源配置：
 +
 ** 磁碟資源配置必須設為 * 完整資源配置的必要項目零位 * 。
