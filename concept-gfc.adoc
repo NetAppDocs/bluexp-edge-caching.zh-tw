@@ -131,12 +131,18 @@ image:diagram_gfc_image3.png["顯示 Edge 和 Core 上 BlueXP 邊緣快取元件
 +
 在AWS中、這會在具有127 GB通用SSD的m4.large或等效（2 vcpU/8 GB RAM）執行個體上執行
 
++
+在 Google Cloud 中、這會在 n2-Standard-2 或同等級（ 2 vCPU/8 GB RAM ）執行個體上執行、並使用 127 GB 通用 SSD
+
 ** BlueXP 邊緣快取核心：
 +
-在Azure中、此功能可在具有127 GB優質SSD的D4s_V3或同等（4個vCPU / 16 GB RAM）VM上執行
+在 Azure 中、這項功能可在配備 127 GB 優質 SSD 的 D8s_V4 或同等級（ 8 vCPU/32 GB RAM ） VM 上執行
 
 +
-在AWS中、這會在m4.xlarge或同等（4個vcpU/16 GB RAM）執行個體上執行、搭配127 GB通用SSD
+在 AWS 中、這會在 m4.2xlarge 或等效（ 8 vCPU/32 GB RAM ）執行個體上執行、並配備 127 GB 通用 SSD
+
++
+在 Google Cloud 中、這會在 n2-Standard-8 或同等級（ 8 vCPU/32 GB RAM ）執行個體上執行、並使用 127 GB 通用 SSD
 
 
 
