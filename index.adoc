@@ -1,5 +1,5 @@
 ---
-layout: astra 
+layout: landing-page 
 sidebar: sidebar 
 permalink: index.html 
 lead: BlueXP edge caching lets you create a centralized file store that serves remote locations around the globe. With edge caching, frequently accessed data is maintained in each of the associated remote edge locations and can be accessed without the latency involved with accessing data over WAN, while remaining under central control. 
