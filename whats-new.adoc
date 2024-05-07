@@ -18,6 +18,12 @@ summary: 瞭解 BlueXP 邊緣快取的新功能。
 
 
 
+== 2024 年 5 月 6 日（ 2.4 版）
+
+此版本可修正一些小問題。更新的軟體套件可在以下網址取得： https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
+
+
+
 == 2023 年 8 月 1 日（ 2.3 版）
 
 此版本可修正中所述的問題 https://docs.netapp.com/us-en/bluexp-edge-caching/fixed-issues.html["修正問題"]。如需更新的軟體套件、請參閱 https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。

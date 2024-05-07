@@ -45,40 +45,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 瞭解 BlueXP 邊緣快取
-      url: concept-gfc.html
-    - title: 新增功能
-      url: whats-new.html
-    - title: 限制
-      url: concept-gfc.html#limitations
-  - title: 部署元件
-    links:
-    - title: 部署Cloud Volumes ONTAP 以作為儲存平台的功能
-      url: task-gfc-getting-started.html#deploy-cloud-volumes-ontap-as-your-storage-platform
-    - title: 部署 BlueXP 邊緣快取管理伺服器和核心
-      url: task-gfc-getting-started.html#enable-bluexp-edge caching-in-your-working-environment
-    - title: 部署 BlueXP 邊緣快取 Edge 執行個體
-      url: task-deploy-gfc-edge-instances.html
-  - title: 訓練使用者
-    links:
-    - title: 終端使用者訓練
-      url: concept-gfc-enduser-training.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/BlueXP-and-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://bluexp.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://bluexp.netapp.com/events
-  - title: 其他資源
-    links:
-    - title: BlueXP Edge 快取使用案例
-      url: https://bluexp.netapp.com/global-file-cache
 product-family:
   name: BlueXP
   repo: bluexp-family

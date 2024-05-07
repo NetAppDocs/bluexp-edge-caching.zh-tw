@@ -34,7 +34,7 @@ https://repo.cloudsync.netapp.com/gfc/2k19_GFC_2_3_0_55IMAGE.zip["包括 NetApp 
 
 * BlueXP Edge 快取 Edge 軟體：
 +
-https://repo.cloudsync.netapp.com/gfc/GFC-2-3-0-55-Release.exe["NetApp GFC 軟體安裝套件（ .Exe ）"^]
+https://repo.cloudsync.netapp.com/gfc/GFC-2-4-1-72-Release.exe["NetApp GFC 軟體安裝套件（ .Exe ）"^]
 
 * 全域檔案快取儀表板Cloud Insights 、提供下列功能：
 +

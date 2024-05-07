@@ -6,7 +6,6 @@
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-xref"></block>
   <block id="628a4a2f6eaf1d1281369e04da7f5585" category="paragraph">請參閱 <block ref="dff9f26728968e7b308d7b9ca46f5bdd" category="inline-xref-macro-rx"></block> 若要瞭解每個組態可支援的 Edge 執行個體數目上限和使用者總數：</block>
@@ -214,7 +213,6 @@
   <block id="ec7fd1c8b87a6f5d275bc4e24065e734" category="list-text">業務單位生產力軟體、通常需要大量資源、例如資料庫伺服器、郵件伺服器等。 不受支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上、提供您的NetApp支援網站註冊電子郵件地址和密碼、以執行驗證程序。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">總覽</block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
@@ -249,13 +247,6 @@
   <block id="69464e68a5cdd0b54694ac92276fa1a3" category="sidebar">修正問題</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
-  <block id="98121bd163ebeee7679c81cb42cf7994" category="sidebar">部署元件</block>
-  <block id="948b7b04e4691581ca1041a28de513f9" category="sidebar">部署Cloud Volumes ONTAP 以作為儲存平台的功能</block>
-  <block id="e289bcbad000bdd54bcb8ae57eec662f" category="sidebar">訓練使用者</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
-  <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">其他資源</block>
   <block id="25cd9b4ac7b3c20c21ee2a72afe32aa0" category="section-title">2022年5月19日（版本1.3.0）</block>
   <block id="ef54ea7bd608d08bb74526be3bf7a9b6" category="list-text">Edge Sync功能的「組態UI」頁面已更新。</block>
   <block id="e30c0599dc23f8e20e7e385b763cb321" category="list-text">透過PowerShell Cmdlet解決同時新增多個邊緣的預先填入工作時發生的問題。</block>
@@ -361,12 +352,10 @@
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*服務*：選取問題相關的服務。例如、特定於服務工作流程或功能的技術支援問題的BlueXP。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的BlueXP帳戶、工作區和Connector範圍內。</block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必須是後端檔案伺服器內建Backup Operators群組的成員（透過BlueXP部署時會自動啟用此功能）。</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
   <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署 Cloud Volumes ONTAP</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
@@ -440,8 +429,6 @@
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">增強的 Optimus PSM 可設定 Edge Sync 功能</block>
   <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在Cloud Volumes ONTAP Google Cloud上啟動</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
-  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
-  <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge 快取使用案例</block>
   <block id="55be43fdae1edd255f27ede47e8019f9" category="summary">在您開始在雲端和遠端辦公室部署 BlueXP 邊緣快取之前、您需要注意許多需求。</block>
   <block id="d26f2f54b754de8a0e01b774a1618379" category="doc">開始部署 BlueXP 邊緣快取之前</block>
   <block id="e80f84b41f3e11bacacc88e54c95bd86" category="section-title">BlueXP 邊緣快取核心設計考量</block>
@@ -651,7 +638,6 @@
   <block id="d1d79e408906f8fa0a5419fb3745be85" category="sidebar">BlueXP 邊緣快取 Edge 必要條件</block>
   <block id="a9d0b37e45f41dd1d52ab5a771557b0b" category="sidebar">部署 BlueXP 邊緣快取邊緣</block>
   <block id="df1f69fe50ad765ccb959276db879f1f" category="sidebar">使用 BlueXP 邊緣快取</block>
-  <block id="1b16252715ee63d29e9c78d78a69c523" category="sidebar">部署 BlueXP 邊緣快取管理伺服器和核心</block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="list-text"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="91ea063dfcaf2cbae3a931cc1d0a28a8" category="paragraph">我們建議磁碟區的大小足以容納應用程式的總資料集、並能隨著資料集的成長而隨之擴充。如果工作環境中有多個集合體、請參閱<block ref="89800d58631629b790a13a9de7981f0e" category="inline-link-rx"></block> 以判斷哪些 Aggregate 具有最大的可用空間、以供新磁碟區使用。</block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
@@ -740,7 +726,6 @@
   <block id="c80862bbcf8f857da81705513310d33a" category="paragraph"><block ref="e439e61317b9d8e0964fc4278b02da4f" category="inline-link-rx"></block>
 <block ref="6521fb91943407eb7773f8de6fb3c073" category="inline-link-rx"></block></block>
   <block id="1ff2a72d772b591ce092f04090df1f7d" category="list-text">BlueXP Edge 快取 Edge 軟體：</block>
-  <block id="4600738f0591f7ca9b82d1b1873f082f" category="paragraph"><block ref="4600738f0591f7ca9b82d1b1873f082f" category="inline-link-rx"></block></block>
   <block id="0bc9b34d46e682262d4fe6eb551bdc94" category="paragraph"><block ref="0bc9b34d46e682262d4fe6eb551bdc94" category="inline-link-rx"></block></block>
   <block id="e2ed07bb6933c98e532659727830bc52" category="inline-link-macro">請遵循下列步驟</block>
   <block id="ab22ada227591d3e283d838dc6821bf3" category="paragraph"><block ref="820d518b33801e5de2462ff4ce963d09" category="inline-link-macro-rx"></block> 升級 BlueXP Edge 快取 Edge 軟體。</block>
@@ -770,4 +755,8 @@
   <block id="37224270f6fe9a8b986d9aebd0580f24" category="paragraph">在 Azure 中、這項功能可在配備 127 GB 優質 SSD 的 D8s_V4 或同等級（ 8 vCPU/32 GB RAM ） VM 上執行</block>
   <block id="de3597f52173f419dfcb5b6093c8f91b" category="paragraph">在 AWS 中、這會在 m4.2xlarge 或等效（ 8 vCPU/32 GB RAM ）執行個體上執行、並配備 127 GB 通用 SSD</block>
   <block id="13a8d1c98f73a6d8e45079d3d40dd107" category="paragraph">在 Google Cloud 中、這會在 n2-Standard-8 或同等級（ 8 vCPU/32 GB RAM ）執行個體上執行、並使用 127 GB 通用 SSD</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="70d2aaea6b19d033a76faef23053a806" category="section-title">2024 年 5 月 6 日（ 2.4 版）</block>
+  <block id="33ac6c6578bc8387b0ba6aaebc3f939a" category="paragraph">此版本可修正一些小問題。更新的軟體套件可在以下網址取得：<block ref="89fd140dfa15c4587519958830d6000f" category="inline-link-rx"></block>。</block>
+  <block id="39e223ecfe3ee5dc48a36bdee3d5da31" category="paragraph"><block ref="39e223ecfe3ee5dc48a36bdee3d5da31" category="inline-link-rx"></block></block>
 </blocks>
