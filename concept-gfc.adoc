@@ -16,7 +16,7 @@ summary: NetApp BlueXP 邊緣快取可讓您將分散式檔案伺服器的封閉
 [role="lead"]
 NetApp BlueXP 邊緣快取可讓您將分散式檔案伺服器的封閉環境整合到公有雲中的單一一致全球儲存空間。這會在雲端中建立全域存取的檔案系統、讓所有遠端位置都能像在本機一樣使用。
 
-BlueXP 邊緣快取有兩種部署模式可供選擇、以符合您的企業架構：如同整合式服務結合 Cloud Volumes ONTAP 執行個體（雲端 Volume Edge Cache ）、或是企業儲存策略的附加元件（ Global File Cache ）
+BlueXP 邊緣快取有兩種部署模式可供選擇、以符合您的企業架構：將整合式服務與 Cloud Volumes ONTAP 執行個體結合、稱為雲端 Volume Edge Cache （ CVEC ）、或是企業儲存策略的附加元件、稱為 Global File Cache （ GFC ）。
 
 
 

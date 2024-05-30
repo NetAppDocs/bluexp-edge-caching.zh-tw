@@ -18,6 +18,14 @@ summary: 瞭解 BlueXP 邊緣快取的新功能。
 
 
 
+== 2024 年 5 月 31 日
+
+NetApp 已宣布終止 NetApp 全域檔案快取的可用度（ EOA ）、截止日期為 2024 年 5 月 31 日。EOA 會影響所有 NetApp 全域檔案快取產品、包括獨立式全域檔案快取軟體訂閱、以及 NetApp Cloud Volumes ONTAP 的全域檔案快取套裝解決方案、稱為 NetApp 雲端 Volume Edge Cache 。
+
+雖然我們宣布這些產品的 EOA 、但 NetApp 將持續支援這些產品、直到 2027 年 5 月 31 日為止。 https://mysupport.netapp.com/info/communications/CPC-00578.html["如需 NetApp 全域檔案快取終止可用度的詳細資料、請參閱"^]。
+
+
+
 == 2024 年 5 月 6 日（ 2.4 版）
 
 此版本可修正一些小問題。更新的軟體套件可在以下網址取得： https://docs.netapp.com/us-en/bluexp-edge-caching/download-gfc-resources.html#download-required-resources["本頁"]。
