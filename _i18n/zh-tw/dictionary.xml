@@ -68,25 +68,8 @@
   <block id="b9c5f151d07a94019ba26f5d3579bcf9" category="inline-link-macro">Word 文件（ .docx ）</block>
   <block id="a314a20204b96ce855b4edecf455498b" category="list-text">就職通訊<block ref="ec13a4ed87a907c97165059568a0b0f6" category="inline-link-macro-rx"></block></block>
   <block id="cb59b87e00d11222bfd9159d0d23836f" category="doc">快速入門</block>
-  <block id="201e09e85ad81db8a19ef9f20c05d1a5" category="inline-link-macro">這段影片</block>
-  <block id="81b4cc67e8f60e41997293efceba160b" category="paragraph">觀看 <block ref="182ef5a05e7c682b0210b8852ec20646" category="inline-link-macro-rx"></block> 以查看從開始到結束的步驟。</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">快速入門</block>
   <block id="990f23665d21283cae7ae6a6366d2e03" category="paragraph">請依照下列步驟快速入門、或向下捲動至其餘部分以取得完整詳細資料：</block>
-  <block id="7ca1af679f0ba86814f2ad58a578cb7c" category="inline-link">在 Cloud Volumes ONTAP Azure 中啟動</block>
-  <block id="6602afb860a6cca23c3b75bf601365eb" category="inline-link">在 Cloud Volumes ONTAP AWS 中啟動</block>
-  <block id="7be40d2cd621549d68e8fff4ffead179" category="section-title">部署 Cloud Volumes ONTAP 作為您的儲存平台</block>
-  <block id="d0b9898fe413c415608114643e2b6efc" category="list-text">您應該在 Cloud Volumes ONTAP 執行個體上設定 SMB 檔案共用。</block>
-  <block id="b61032810c3dc3333168d75ab853e222" category="list-text">選擇部署 Cloud Volumes ONTAP 的運作環境。</block>
-  <block id="1e408f6922ab52afed30bf9f3fd18a98" category="list-text">閱讀「總覽」頁面、然後按一下 * 繼續 * 。</block>
-  <block id="3c96cc9fcb38b9efb7ce7ced8d1aa073" category="inline-link-macro">儲存平台</block>
-  <block id="2ddf0a5413911c8c522b1bb2dbbc2a38" category="list-text">如果 Cloud Volumes ONTAP 在這個例子中沒有 SMB 共享、系統會提示您輸入 SMB 伺服器和 SMB 共用詳細資料、以便立即建立共享區。如需 SMB 組態的詳細資訊、請參閱 <block ref="7b874b389af49bd37b4d4f24aa0d8f0d" category="inline-link-macro-rx"></block>。</block>
-  <block id="07e6022a350412b0d38723f6c0553658" category="paragraph">完成後、按一下 * 繼續 * 以建立 SMB 共用區。</block>
-  <block id="9bd4f7e64b7c6543ad22515f64db1b01" category="inline-image-macro">快照顯示建立 SMB 共用所需的資訊（如果無法使用）。</block>
-  <block id="c510089405fb065c62a7ed30808c3a4c" category="paragraph"><block ref="c510089405fb065c62a7ed30808c3a4c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2175de844bbfb8a1e195b989b54ba612" category="list-text">在「全域檔案快取服務」頁面上、輸入您打算部署的全域檔案快取 Edge 執行個體數目、然後確定您的系統符合「網路組態與防火牆規則」、「 Active Directory 設定」和「防毒排除」的要求。請參閱 <block ref="391182c9255c8914347b7e13351c1a63" category="inline-link-macro-rx"></block> 以取得更多詳細資料。</block>
-  <block id="b7058a71800a15389821662470e7ae9b" category="list-text">在您確認已符合要求、或您擁有符合這些要求的資訊之後、請按一下 * 繼續 * 。</block>
-  <block id="c996fbb43976c45057849f97d91482c5" category="list-text">服務帳戶是網域使用者、是 Cloud Volumes ONTAP 整個過程中 BUILTIN\Backup Operators 群組的一部分。</block>
-  <block id="026ded920edc7d21e9ce48cd106d87a2" category="paragraph">儀表板顯示管理伺服器執行個體和核心執行個體均為 * 開啟 * 且正常運作。</block>
   <block id="e1fa96f0dfb2492f998b4f35bbd987b5" category="paragraph">在此範例中、我們會在剛剛部署於公有雲的核心執行個體上設定 LMS 服務。這是設定 LMS 服務的一次性程序。</block>
   <block id="0c8ba78cfb15615de4a900fdeb69cbed" category="list-text">按一下 * 「 Continue to this website （ not recommended ）（繼續前往此網站（不建議））」 * 繼續。隨即顯示頁面、可讓您設定 LMS 或檢查現有的授權資訊。</block>
   <block id="b8f60af9dc506c64f958249f3105cab1" category="list-text">選擇登錄模式：</block>
@@ -101,13 +84,6 @@
   <block id="fa47d0136b382d22f766fa761a04805a" category="paragraph"><block ref="fa47d0136b382d22f766fa761a04805a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b45036707cc90430d164ae3587cf21ba" category="paragraph">您會看到一則訊息、指出您的 GFC 授權訂閱已成功註冊並啟動 LMS 執行個體。任何後續購買項目都會自動新增至 GFC 授權訂閱。</block>
   <block id="bfbf9a67604bf6da34d29af94d1d924d" category="list-text">您也可以按一下 * 授權資訊 * 索引標籤、檢視所有的 GFC 授權資訊。</block>
-  <block id="ef0a7c56552e1272d8c5d9e5fb599479" category="section-title">部署其他核心執行個體</block>
-  <block id="fcafc696f895c2c546168d2a1248735e" category="paragraph">部署 Edge 執行個體時、您會將部分執行個體設定為連線至第一個核心、而其他執行個體則連線至第二個核心。兩個核心執行個體都能在 Cloud Volumes ONTAP 工作環境中存取相同的後端儲存設備（您的實例）。</block>
-  <block id="ffd917e3a188963aaca624d7e9be0145" category="list-text">在「全域檔案快取儀表板」中、按一下「 * 新增核心執行個體 * 」。</block>
-  <block id="451dee323842a4acb0d1dc8b7efe20c6" category="inline-image-macro">GFC 儀表板的快照、以及新增其他核心執行個體的按鈕。</block>
-  <block id="61de456010a3bab3d4ffccc75733e75b" category="paragraph"><block ref="61de456010a3bab3d4ffccc75733e75b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8d27de6a961b36da305ccdb9c92c1cef" category="list-text">輸入要加入 Active Directory 網域的管理員使用者認證、以及服務帳戶使用者認證。然後按一下 * 繼續 * 。</block>
-  <block id="d4258bbf3853a6e9c45602dc946b8b71" category="paragraph">儀表板反映工作環境的第二個核心執行個體。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">開始之前</block>
   <block id="3dccf72fe610d6922e392e93335fdb6d" category="list-text">子網路遮罩</block>
   <block id="c2eec1849e83099bbab1cd0ae936bbf5" category="list-text">閘道 IP 位址</block>
@@ -221,10 +197,6 @@
   <block id="1d40d5b2144a31da39c596193a7553cd" category="list-text">仰賴自我維持、自我管理的快取、並消除完整的資料複本與備份。利用本機檔案快取來取得主動式資料、並降低儲存成本</block>
   <block id="eabc5b86be92567d6584b6f9bda306bf" category="list-text">透過即時中央檔案鎖定的全域命名空間、從分公司位置進行透明存取</block>
   <block id="e55dde8ab8d8ac9594c265cd439c94bf" category="section-title">支援的儲存平台</block>
-  <block id="af1bba2ce5f90eecf243bb554ad8673d" category="section-title">自動化部署選項</block>
-  <block id="0e8f3fb260ced5550398e677e8e16659" category="list-text">Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="bdcb25a0b74cb8c3c6dc4deb7e7dc876" category="list-text">AWS 中的 Cloud Volumes ONTAP</block>
-  <block id="a4bae3b774c4cc05ca00a01a97ff00ca" category="section-title">手動部署選項</block>
   <block id="98b63173dd4ecb2326d95d7300606052" category="paragraph">本範例中所提及的拓撲是中樞型和星型模式、遠端辦公室 / 位置的網路會存取雲端中的一組通用資料。此範例的重點包括：</block>
   <block id="8fef697f7f9f78c059ccfc40f4acea1e" category="list-text">集中式資料儲存區：</block>
   <block id="4cb06c74a96499a607c0c95ead19581f" category="list-text">企業公有雲儲存平台、 Cloud Volumes ONTAP 例如</block>
@@ -357,7 +329,6 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
   <block id="e182461a5cdbf7556eaec25749caec6a" category="list-text">它必須是後端檔案伺服器內建Backup Operators群組的成員（透過BlueXP部署時會自動啟用此功能）。</block>
   <block id="06c2cea18679d64399783748fa367bdd" category="inline-image-macro">一</block>
-  <block id="bb28d23fa130988b09464a6057aef85b" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署 Cloud Volumes ONTAP</block>
   <block id="aada29daee1d64ed0fe907043855cb7e" category="inline-image-macro">二</block>
   <block id="ca8a2087e5557e317599344687a57391" category="inline-image-macro">三</block>
   <block id="981b8fcee42e1e726a67a2b9a98ea6e9" category="inline-image-macro">四</block>
@@ -406,9 +377,7 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您擁有預先存在的客戶層級的NSS帳戶、並嘗試新增合作夥伴層級的帳戶、情況也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登入後、NetApp會儲存NSS.使用者名稱。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
-  <block id="155ec659cc4e13b84e26ac8a60d0983e" category="list-text">Google Cloud 中的 Cloud Volumes ONTAP</block>
   <block id="e3e9432fcac5223a00dade599290aa9e" category="list-text">與客戶的 Active Directory 網域服務整合。</block>
-  <block id="6962e9afd3ce89facea38f30c619211e" category="list-text">與 Cloud Volumes ONTAP 一起安裝（透過 BlueXP 完全部署支援的組態）時、有兩種定價選項：</block>
   <block id="b25d47777a73708955cbc4e4a8cf5e9f" category="paragraph">目前不支援其他使用 BlueXP 的儲存平台、但可以使用舊版部署程序來部署。這些其他組態、例如、使用 Amazon FSX 的 ONTAP 系統、 Azure NetApp Files 或 Cloud Volumes Service 在 Google Cloud 上的全域檔案快取、則是使用舊版程序來支援。請參閱<block ref="9cbd9a7390d82046b7f64435219915f0" category="inline-link-rx"></block> 以取得詳細資料。</block>
   <block id="204d44b6be54971c264dcdd956240244" category="admonition">將防毒軟體新增至 Edge 應用裝置可能會對使用者效能造成 10-20% 的影響。</block>
   <block id="4a8d00e7906604240a5e2ec80e310482" category="list-text">客戶必須負責所有安裝、整合、支援及升級新增的軟體。</block>
@@ -427,7 +396,6 @@
   <block id="a92c52030822934c670502facf8a8f31" category="paragraph">在 Google Cloud 中部署 Cloud Volumes ONTAP 系統時、可使用新的「邊緣快取」授權。您有權在 Cloud Volumes ONTAP 系統上為每 3 TiB 購買容量部署一個全域檔案快取 Edge 系統。</block>
   <block id="89960279d43d6d504afb45e5a8dff137" category="section-title">設定精靈和 GFC 組態 UI 已增強、可執行 NetApp 授權登錄</block>
   <block id="402a1502f5c39fb55ca79d59e3184a34" category="section-title">增強的 Optimus PSM 可設定 Edge Sync 功能</block>
-  <block id="254d5c87d5ab437395f866390ea49cd0" category="inline-link">在Cloud Volumes ONTAP Google Cloud上啟動</block>
   <block id="17212542e3e7df3bdd7a3df903ed851c" category="paragraph"><block ref="17212542e3e7df3bdd7a3df903ed851c" category="inline-link-macro-rx"></block></block>
   <block id="55be43fdae1edd255f27ede47e8019f9" category="summary">在您開始在雲端和遠端辦公室部署 BlueXP 邊緣快取之前、您需要注意許多需求。</block>
   <block id="d26f2f54b754de8a0e01b774a1618379" category="doc">開始部署 BlueXP 邊緣快取之前</block>
@@ -480,10 +448,6 @@
   <block id="ad35f170096264970b205f86c0f47b53" category="paragraph">BlueXP 邊緣快取核心執行個體會裝載到您所選擇的後端儲存平台（例如 Cloud Volumes ONTAP 、 Cloud Volumes Service 、 和 Azure NetApp Files ）並建立 BlueXP 邊緣快取「架構」、可將非結構化資料集中化並整合至單一資料集、無論資料位於公有雲的一或多個儲存平台上。</block>
   <block id="811ddc6ece30a1f2530ff6342c1eb4a7" category="inline-image-macro">顯示 BlueXP 邊緣快取部署詳細資料的圖表、其中包含安裝在遠端辦公室和雲端中央伺服器的軟體。</block>
   <block id="99f09f5ebafddfc5b5d7fce3d5ec4cb8" category="paragraph"><block ref="99f09f5ebafddfc5b5d7fce3d5ec4cb8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="363b2bd43ef6f7aeb91ec76e095db39b" category="paragraph">BlueXP 邊緣快取支援的儲存平台會因您選擇的部署選項而異。</block>
-  <block id="f8789afaf6be4e9a7e1d687266345079" category="paragraph">使用 BlueXP 部署時、下列類型的工作環境支援 BlueXP 邊緣快取：</block>
-  <block id="c9539e6a7ea02b24261db0b58156156f" category="paragraph">此組態可讓您從 BlueXP 部署及管理整個 BlueXP 邊緣快取伺服器端部署、包括 BlueXP 邊緣快取管理伺服器和 BlueXP 邊緣快取核心。</block>
-  <block id="8e990b2873e828e4331073d3a2ac1f62" category="paragraph">BlueXP 邊緣快取組態也支援 Cloud Volumes ONTAP 、 Azure NetApp Files 、 Amazon FSX for ONTAP 系統、以及 Cloud Volumes Service on Google Cloud 。NetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這些安裝中、必須手動設定和部署 BlueXP 邊緣快取伺服器端元件、而非使用 BlueXP 。</block>
   <block id="faf3daf8482ac48bad777b0aceb12529" category="section-title">BlueXP 邊緣快取的運作方式</block>
   <block id="bfd753b1b317fe448cbf93742e4b8470" category="paragraph">BlueXP 邊緣快取會建立一個軟體架構、可在全球各地的遠端辦公室中快取作用中資料集。如此一來、企業使用者就能保證在全球範圍內享有透明的資料存取和最佳效能。</block>
   <block id="74df1466e72718d74f41b23bf918d610" category="inline-image-macro">顯示 Edge 和 Core 上 BlueXP 邊緣快取元件的圖表。</block>
@@ -495,7 +459,6 @@
   <block id="da63fa9bb21eb25f5f57f093c864f2e2" category="list-text">BlueXP 邊緣快取管理伺服器：</block>
   <block id="2f0a1e2943548b4d2c575728fff09264" category="list-text">BlueXP 邊緣快取核心：</block>
   <block id="07fb1269841f7291dfbea77bd07f01c9" category="list-text">對於 Cloud Volumes ONTAP 系統、您每年可為每個 BlueXP 邊緣快取邊緣執行個體支付 3 、 000 美元。</block>
-  <block id="7d78fe64ccb6332f6ee84a1d7a54e2cd" category="list-text">使用手動部署選項安裝時、價格會有所不同。若要查看成本的高層級預估、請參閱<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> 或洽詢 NetApp 解決方案工程師、以討論企業部署的最佳選項。</block>
   <block id="54ec0cdb19cb605eacd486e1e3eae2e4" category="paragraph">BlueXP 邊緣快取包含軟體型授權管理伺服器（ LMS ）、可讓您使用自動化機制、整合授權管理、並將授權部署至所有 Core 和 Edge 執行個體。</block>
   <block id="6c7f33700ec1daf2a7db9d9ef1a1b6d8" category="paragraph">BlueXP 支援的 BlueXP 邊緣快取版本（ Cloud Volumes Edge Cache ）要求作為中央儲存設備的後端儲存平台必須是在 Azure 、 AWS 或 Google Cloud 中部署 Cloud Volumes ONTAP 單一節點或 HA 配對的工作環境。</block>
   <block id="1274f95b0e887774a67420d71a35a46f" category="summary">BlueXP 邊緣快取可讓您建立集中式檔案存放區、為全球各地的遠端位置提供服務。使用邊緣快取時、經常存取的資料會保留在每個相關遠端邊緣位置、而且存取時不會因透過 WAN 存取資料而產生延遲、同時仍處於中央控制之下。</block>
@@ -550,43 +513,14 @@
   <block id="f1b72fa6b54a99edca2e66f472f493c7" category="doc">已修正 BlueXP 邊緣快取的問題</block>
   <block id="f7945208fb1c338c1989bf28a768a98d" category="summary">瞭解 BlueXP 邊緣快取的新功能。</block>
   <block id="d225d0beffed18386600da1c04c58d1b" category="doc">BlueXP 邊緣快取的新功能</block>
-  <block id="1c65947ab38b89a358e8269992b0e84e" category="summary">您可以使用 BlueXP 在工作環境中部署 BlueXP 邊緣快取管理伺服器和核心軟體。</block>
-  <block id="21cc938ead97519fd156ee70b88b3636" category="section-title">使用 BlueXP 啟用 BlueXP 邊緣快取</block>
-  <block id="51d59d9046ed7b3832e2bfad09d4b8e5" category="paragraph">在此組態中、您將在使用 BlueXP 建立 Cloud Volumes ONTAP 系統的相同工作環境中、部署 BlueXP 邊緣快取管理伺服器和 BlueXP 邊緣快取核心。</block>
   <block id="47a36c5a10f1475734cf25053e80cf30" category="paragraph-title"><block ref="54f425ce8d89f4ed6b8a546561af5d60" category="inline-image-macro-rx" type="image"></block> 部署 BlueXP 邊緣快取管理伺服器</block>
-  <block id="b1b6c2fd33beb079cbc593f3d52ddf73" category="paragraph">在與 Cloud Volumes ONTAP 執行個體相同的工作環境中部署 BlueXP 邊緣快取管理伺服器執行個體。</block>
   <block id="62911a0b6181f704a710e644db7b7ef2" category="paragraph-title"><block ref="05b2444faffd66d76e88602ea7dd353f" category="inline-image-macro-rx" type="image"></block> 部署 BlueXP 邊緣快取核心</block>
-  <block id="e3b0e2fd2adf83a0311d88df519a6dfd" category="paragraph">在與 Cloud Volumes ONTAP 執行個體相同的工作環境中部署 BlueXP 邊緣快取核心的執行個體或多個執行個體、然後將其加入 Active Directory 網域。</block>
   <block id="47f7da84271a4944ceac63538d7ae699" category="paragraph-title"><block ref="beadfa85a2fdca06b91edc1131c603e6" category="inline-image-macro-rx" type="image"></block> 授權 BlueXP 邊緣快取</block>
   <block id="47bf46e44fd4c8c797f0d58ba0b424e5" category="paragraph">在 BlueXP 邊緣快取核心執行個體上設定 BlueXP 邊緣快取授權管理伺服器（ LMS ）服務。您需要使用 NetApp 提供的新增資信或客戶 ID 和訂閱號碼、才能啟動您的訂閱。</block>
   <block id="d04885a778b925accc9afb2408cffc16" category="paragraph-title"><block ref="99e8b2f00e172bfcff96afdce69907bc" category="inline-image-macro-rx" type="image"></block> 部署 BlueXP 邊緣快取 Edge 執行個體</block>
   <block id="a3478e6d52ae4f0ad63d093777515615" category="inline-link-macro">部署 BlueXP 邊緣快取 Edge 執行個體</block>
-  <block id="72618ee12aaa89a8ff8190e4cfaebf76" category="paragraph">請參閱 <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> 在每個遠端位置部署 BlueXP 邊緣快取 Edge 執行個體。此步驟並未使用BlueXP完成。</block>
   <block id="370b94610a07d4acffd09200c2a83123" category="paragraph">請注意下列其他 BlueXP 邊緣快取需求：</block>
   <block id="7c91a8c26657bad5dc6f80e7c67c912e" category="paragraph">如果在執行個體上未設定 SMB 檔案共用、則會在安裝 BlueXP 邊緣快取元件期間提示您設定 SMB 共用。</block>
-  <block id="46142bb722729a4171bd2579b394eb8a" category="section-title">在您的工作環境中啟用 BlueXP 邊緣快取</block>
-  <block id="eadb2d20eaa6748d72ca4e31f4cf7fd7" category="paragraph">安裝精靈會引導您完成部署 BlueXP 邊際快取管理伺服器執行個體和 BlueXP 邊緣快取核心執行個體的步驟、如下所示。</block>
-  <block id="38046ccb1bc6ee5625f331f7a91bd196" category="inline-image-macro">初始 BlueXP 邊緣快取安裝頁面的螢幕擷取畫面。</block>
-  <block id="1e32d0dc01f3acb91cc8fb39e39eb095" category="paragraph"><block ref="1e32d0dc01f3acb91cc8fb39e39eb095" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f7beda78053648247d3f9629a2c42f17" category="list-text">在「服務」面板中、按一下 * 啟用 * 以取得 _Edge 快取 _ 服務。</block>
-  <block id="b9a1fe6427b805705142867f67304b90" category="inline-image-macro">在工作環境中啟用初始按鈕的螢幕擷取畫面、以啟用 BlueXP 邊緣快取。</block>
-  <block id="4c4fef94540e00c4002331ad43f95233" category="paragraph"><block ref="4c4fef94540e00c4002331ad43f95233" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="85fa07be47d81c5197ca4c93c455c51d" category="inline-image-macro">顯示部署 BlueXP Edge 快取管理伺服器和核心執行個體之前的先決條件的螢幕擷取畫面。</block>
-  <block id="eff6841b5a608ac2e86080c93573d7a9" category="paragraph"><block ref="eff6841b5a608ac2e86080c93573d7a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="57238cb628026326ab2a13b138f32de6" category="list-text">輸入您將用來存取 BlueXP 邊際快取管理伺服器 VM 的管理認證、然後按一下 * 啟用 GFC 服務 * 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。</block>
-  <block id="102731d12839fcdf80c8a340f57b9633" category="inline-image-macro">顯示設定 BlueXP Edge 快取管理伺服器所需的組態資訊的螢幕擷取畫面。</block>
-  <block id="79ae50848d778e2349152140a8e8c157" category="paragraph"><block ref="79ae50848d778e2349152140a8e8c157" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1efa2569b18a975cb0fddfca95e705b3" category="list-text">成功部署 BlueXP 邊緣快取管理服務之後、按一下 * 繼續 * 。</block>
-  <block id="2806876fb455acac296ae939b8a94f6c" category="list-text">對於 BlueXP 邊緣快取核心、請輸入管理員使用者認證以加入 Active Directory 網域、以及服務帳戶使用者認證。然後按一下 * 繼續 * 。</block>
-  <block id="00ef81a37c6e8ac0a6fe56b325b7db51" category="list-text">BlueXP 邊緣快取核心執行個體必須部署在與 Cloud Volumes ONTAP 執行個體相同的 Active Directory 網域中。</block>
-  <block id="986cf0e4e5bba6bad325e7496575be8f" category="inline-image-macro">顯示設定 BlueXP 邊際快取核心作用中目錄和服務帳戶所需的組態資訊的螢幕擷取畫面。</block>
-  <block id="c4a1094670a1259e3ec4c869f345c566" category="paragraph"><block ref="c4a1094670a1259e3ec4c869f345c566" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9307dbd716d666024ead20261f53e8a" category="list-text">輸入您將用來存取 BlueXP 邊際快取核心 VM 的管理認證、然後按一下 * 部署 GFC Core* 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更虛擬機器 / 執行個體名稱。</block>
-  <block id="19ec72e4262d3ab6fbb92027e1f26cc9" category="inline-image-macro">顯示設定 BlueXP Edge 快取核心執行個體所需的組態資訊的螢幕擷取畫面。</block>
-  <block id="ce03427a0bf4a8de6f5bd690a9caebf2" category="paragraph"><block ref="ce03427a0bf4a8de6f5bd690a9caebf2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="dbed4cab598866209032f387706537c9" category="list-text">成功部署 BlueXP 邊緣快取核心之後、按一下 * 移至儀表板 * 。</block>
-  <block id="f241a6d4168de9bd2a9425e2bf94976a" category="inline-image-macro">安裝完成後顯示 BlueXP 邊緣快取儀表板的螢幕擷取畫面。</block>
-  <block id="f3838279f687567e22d766b3e23a4bb2" category="paragraph"><block ref="f3838279f687567e22d766b3e23a4bb2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a9c5579a5e23d500a26ed5d9e2bb814e" category="section-title">授權安裝 BlueXP 邊緣快取</block>
   <block id="1adb6cc282d3984d92f2db8afe77b6a4" category="paragraph">在您可以使用 BlueXP 邊緣快取之前、您必須先在 BlueXP 邊緣快取核心執行個體上設定 BlueXP 邊緣快取授權管理伺服器（ LMS ）服務。您需要提供您的新增資信或客戶 ID 和訂閱編號、才能啟動您的訂閱。</block>
   <block id="d33c733b7e7c6ac488c5e037a47fef2d" category="list-text">使用下列 URL 開啟 BlueXP 邊際快取核心（您指定為 LMS 服務的核心）上的「 Global File Cache License Registration 」（全域檔案快取授權登錄）頁面。以 BlueXP 邊緣快取核心的 IP 位址取代 &lt;ip_address&gt; ：<block ref="72dbd330743fc50599ec44d0fe0192d1" category="inline-link-rx"></block></block>
@@ -598,10 +532,6 @@
   <block id="430c143aa87248f0c317c8d68b290ab7" category="paragraph">如果您確定需要部署多個 BlueXP 邊緣快取核心來支援您的組態、請按一下儀表板上的 * 新增核心執行個體 * 、然後遵循部署精靈。</block>
   <block id="e8d5c13a3c195398396414913a71d18a" category="inline-link-macro">部署 BlueXP 邊緣快取 Edge 執行個體</block>
   <block id="2c0838925fad25a1f1019fa038adb1d5" category="paragraph">完成核心部署之後、您需要 <block ref="1fca0e397bf060f87e7f331b5b2250c9" category="inline-link-macro-rx"></block> 在您的每個遠端辦公室。</block>
-  <block id="95c4aa620413c0eaf7c913d9d77ddec5" category="paragraph">如果您的組態需要安裝多個 BlueXP 邊緣快取核心、因為有大量的 Edge 執行個體、您可以將另一個核心新增至工作環境。</block>
-  <block id="8015175e9bd0806cd209ae5de5e5f2a7" category="list-text">BlueXP 邊緣快取核心執行個體必須與 Cloud Volumes ONTAP 執行個體位於相同的 Active Directory 網域中。</block>
-  <block id="fe2b660461c839a130aab1585883bdbd" category="list-text">輸入您將用來存取 BlueXP 邊際快取核心 VM 的管理認證、然後按一下 * 部署 GFC Core* 。對於 Azure 和 Google Cloud 、您可以輸入認證作為使用者名稱和密碼；對於 AWS 、您可以選取適當的金鑰配對。您可以視需要變更 VM 名稱。</block>
-  <block id="471cbbd70af8c22b29c38b4c58b90bc1" category="paragraph"><block ref="471cbbd70af8c22b29c38b4c58b90bc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="841cb7cfb619b5923fb3b38f50f53e0b" category="summary">您將想要訓練使用者、瞭解透過 BlueXP 邊緣快取存取共用檔案的最佳實務做法。</block>
   <block id="ae12b314fd246da90162110a32a17a86" category="paragraph">這是 BlueXP 邊緣快取部署的最後階段、也是終端使用者實作階段。</block>
   <block id="c5a9e206e2cba407d01faf1b9bc8aae6" category="paragraph">為了準備並簡化終端使用者的就職程序、請使用下方的電子郵件範本、協助您教育終端使用者在「中央資料」環境中的工作方式。這將有助於您的使用者充分利用 BlueXP 邊緣快取解決方案的所有優點。我們也發佈了影片、可視需要分享給「訓練」使用者。</block>
@@ -646,8 +576,6 @@
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="278930628a6575fa0fe23ecd27374bfb" category="paragraph">部署 Cloud Volumes ONTAP 並設定 SMB 檔案共用。如需詳細資訊、請參閱<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block>。</block>
-  <block id="b48c78d3da26a7311e5288a66ed4f4d8" category="paragraph">BlueXP 邊緣快取支援部署在 Azure 、 AWS 和 Google Cloud 中的 Cloud Volumes ONTAP 。如需詳細的先決條件、需求及部署指示、請參閱<block ref="8198e799bf373d0d471ff3f551725308" category="inline-link-rx"></block>、<block ref="3718aa4b740ed1680c17ac188cf71498" category="inline-link-rx"></block>或<block ref="958eb36238d0859ba89677740ca359aa" category="inline-link-rx"></block></block>
   <block id="45456d22bd7241b79d0f62620d5888d8" category="list-text">或者、對於 Azure 和 GCP 中的 Cloud Volumes ONTAP 系統、您可以選擇 Cloud Volumes ONTAP Edge Cache 套件。此容量型授權可讓您針對所購買容量的每 3 TiB 部署單一 BlueXP 邊緣快取 Edge 執行個體。<block ref="2ad67afc7a67ecb4970c40ef2d9c9dc1" category="inline-link-rx"></block>。</block>
   <block id="77474efd411b7748abfa1c88a3e0137c" category="paragraph"><block ref="77474efd411b7748abfa1c88a3e0137c" category="inline-link-rx"></block></block>
   <block id="975b3327995267bde41cd6b4ce0c772d" category="paragraph">此版本提供下列新功能。也可修正中所述的問題<block ref="c98734a3bbf4b45bac275605eaeefc3f" category="inline-link-rx"></block>。</block>
@@ -762,5 +690,33 @@
   <block id="fc31bdab270f34f9dbc1c826f879ec7a" category="section-title">2024 年 5 月 31 日</block>
   <block id="a38c9755f3e363e5fcc012f982f27744" category="paragraph">NetApp 已宣布終止 NetApp 全域檔案快取的可用度（ EOA ）、截止日期為 2024 年 5 月 31 日。EOA 會影響所有 NetApp 全域檔案快取產品、包括獨立式全域檔案快取軟體訂閱、以及 NetApp Cloud Volumes ONTAP 的全域檔案快取套裝解決方案、稱為 NetApp 雲端 Volume Edge Cache 。</block>
   <block id="fe85d677b887f84abb319ef4415495b6" category="inline-link">如需 NetApp 全域檔案快取終止可用度的詳細資料、請參閱</block>
-  <block id="32537bd355f3c702f88504f670fd2349" category="paragraph">雖然我們宣布這些產品的 EOA 、但 NetApp 將持續支援這些產品、直到 2027 年 5 月 31 日為止。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
+  <block id="24ac22613c3f1be0d76e3bfcefcc6ec1" category="paragraph">BlueXP 邊緣快取雲端組態支援 Cloud Volumes ONTAP 、 Azure NetApp Files 、 Amazon FSX for ONTAP 系統、以及 Cloud Volumes Service on Google Cloud 。NetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。在這兩種組態中、 BlueXP 邊緣快取伺服器端元件都是手動設定和部署、而不是使用 BlueXP 。</block>
+  <block id="630bda6df3ff7bb814a79444e1dabbc4" category="list-text">搭配 Cloud Volumes ONTAP 安裝時、有兩種定價選項：</block>
+  <block id="fd78745105091c2015d98f29269dd694" category="list-text">安裝在其他平台（非 Cloud Volumes ONTAP 系統）上時、價格會有所不同。若要查看成本的高層級預估、請參閱<block ref="9302a3a91184fdbf4c3bfe67365aaae4" category="inline-link-rx"></block> 或洽詢 NetApp 解決方案工程師、以討論企業部署的最佳選項。</block>
+  <block id="94f0fe03958717052e8669010ec89838" category="summary">您可以在其中一個儲存系統上部署 BlueXP 邊緣快取管理伺服器和核心軟體。</block>
+  <block id="279ac5dd73c3a5783ebeb10e172c4f38" category="paragraph">重要</block>
+  <block id="8dc3b867202156e4823ca41b3bb6a73e" category="paragraph">自 2024 年 5 月起、從 BlueXP 使用者介面啟用、部署及管理全域檔案快取元件的功能已經移除。您必須透過存取儲存系統來執行這些步驟。</block>
+  <block id="644e85c2f551fdd59e00fa39649db4fe" category="paragraph-title"><block ref="58f667aaf05f87159670e12bd9bc076b" category="inline-image-macro-rx" type="image"></block> 部署您的儲存平台</block>
+  <block id="94d9e0666aa5e380557e31da818019fe" category="paragraph">BlueXP 邊緣快取雲端組態支援 Cloud Volumes ONTAP 、 Azure NetApp Files 、 Amazon FSX for ONTAP 系統、以及 Cloud Volumes Service on Google Cloud 。NetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。部署儲存系統之後、請設定 SMB 檔案共用。</block>
+  <block id="a6de36f7bc7cc5e691accc7e05216eff" category="paragraph">在同一個環境中部署 BlueXP 邊緣快取管理伺服器的執行個體。</block>
+  <block id="e637e6a930df9f6584f08abf5aa66d6b" category="paragraph">將 BlueXP 邊緣快取核心的執行個體或多個執行個體部署在與儲存系統相同的位置、然後將其加入 Active Directory 網域。</block>
+  <block id="d5801d597268a30f73151fa4b887f23c" category="paragraph">請參閱 <block ref="8a8be2ad52d9aa8bdc89d7f5ec8c59df" category="inline-link-macro-rx"></block> 在每個遠端位置部署 BlueXP 邊緣快取 Edge 執行個體。</block>
+  <block id="8a676956b87e4c2879e952df16fc8349" category="section-title">部署您的儲存平台</block>
+  <block id="513fe58b31bec3bb61683a97f88ad1a9" category="paragraph">BlueXP 邊緣快取雲端組態支援 Cloud Volumes ONTAP （ AWS 、 Azure 和 Google ）、 Azure NetApp Files 、 Amazon FSX （ ONTAP 系統）和 Cloud Volumes Service （ Google 雲端）。NetApp AFF 的內部部署解決方案也可在 NetApp 的功能性和 FAS 功能性平台上使用。</block>
+  <block id="043b39a5bb9ba9f94a59f979372cabe2" category="list-text">您應該在儲存系統上設定 SMB 檔案共用。</block>
+  <block id="d9b762ee5151400d1727e25846f5bedb" category="section-title">部署全域檔案快取核心</block>
+  <block id="aa62924956abdbb99bfb85c59d8f51bf" category="paragraph">請參閱中的第 7 章<block ref="c37d59ba163d6e06d70bc7a9326dd95e" category="inline-link-rx"></block>。</block>
+  <block id="84037427a2c8d669a1e7b95e23492189" category="paragraph">NetApp 將持續為現有客戶支援這些產品至少 3 年。<block ref="c260bd0a32453373dfa997871e7c7312" category="inline-link-rx"></block>。</block>
+  <block id="ce6cf9ea6138c79aab74ff110d376b23" category="paragraph">此外、從 BlueXP 使用者介面啟用、部署及管理全域檔案快取元件的功能也已移除。</block>
+  <block id="91770f038cd944a1d3b9b347edeb2b10" category="sidebar">新增功能</block>
+  <block id="98121bd163ebeee7679c81cb42cf7994" category="sidebar">部署元件</block>
+  <block id="948b7b04e4691581ca1041a28de513f9" category="sidebar">部署Cloud Volumes ONTAP 以作為儲存平台的功能</block>
+  <block id="1b16252715ee63d29e9c78d78a69c523" category="sidebar">部署 BlueXP 邊緣快取管理伺服器和核心</block>
+  <block id="e289bcbad000bdd54bcb8ae57eec662f" category="sidebar">訓練使用者</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
+  <block id="4c7d5d7dfde4a7bd82b54348182043d3" category="sidebar">其他資源</block>
+  <block id="f79eca534d02cb718a61576ea3936648" category="sidebar">BlueXP Edge 快取使用案例</block>
 </blocks>
